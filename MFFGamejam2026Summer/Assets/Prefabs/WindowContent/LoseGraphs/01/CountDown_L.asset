@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eb0965e5b448ba351ec6f41d73fac, type: 3}
-  m_Name: TellYourMom
+  m_Name: CountDown_L
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
-  title: 
-  contentPrefab: {fileID: 0}
+  title: HIHI HAHA
+  contentPrefab: {fileID: 2451607497390987606, guid: 2c9b9814c94d80247b31e948b9ea209d, type: 3}
   applyEvade: 0
-  isClosable: 1
+  isClosable: 0
   closeSpawnMode: 0
   randomSpawnCount: 1
-  nextWindows: []
+  nextWindows:
+  - nextNode: {fileID: 11400000, guid: 69047e898f13b5b489075b1803a167a5, type: 2}
+    weight: 0

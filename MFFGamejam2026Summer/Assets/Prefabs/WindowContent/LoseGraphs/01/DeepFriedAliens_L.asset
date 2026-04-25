@@ -10,13 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eb0965e5b448ba351ec6f41d73fac, type: 3}
-  m_Name: CountDown
+  m_Name: DeepFriedAliens_L
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
-  id: 
   title: 
-  contentPrefab: {fileID: 0}
+  contentPrefab: {fileID: 2097773374565476595, guid: 5073f594a61aec145981dfb12b9ff1b8, type: 3}
   applyEvade: 0
   isClosable: 1
   closeSpawnMode: 0
   randomSpawnCount: 1
-  nextWindows: []
+  nextWindows:
+  - nextNode: {fileID: 11400000, guid: b9991b96a91dde94bb358e2350e8ca9c, type: 2}
+    weight: 0

@@ -2,12 +2,22 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
+
+// Create State working, idle
+
+public enum WindowState
+{
+    Idle,
+    Busy,
+}
+
 public class WindowController : MonoBehaviour
 {
     [SerializeField] TMP_Text titleText;
     [SerializeField] RectTransform clientArea;
     [SerializeField] Button closeButton;
-
+    WindowState _state = WindowState.Idle;
+    
     // ----------------------------------------------------------------
     // Factory
     // ----------------------------------------------------------------
@@ -34,9 +44,10 @@ public class WindowController : MonoBehaviour
     public void SetTitle(string title) => titleText.text = title;
 
     public void Close() => Destroy(gameObject);
-
-    public void Minimize() => gameObject.SetActive(false);
-
+    
+    public WindowState GetState()  => _state;
+    public void SetState(WindowState state) => _state = state;
+    
     public RectTransform GetClientArea() => clientArea;
     
     void SpawnContent(GameObject contentPrefab)

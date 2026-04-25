@@ -3,9 +3,8 @@ using UnityEngine.UI;
 
 public class StartButton : MonoBehaviour
 {
-    [SerializeField] WindowController windowPrefab;
-    [SerializeField] RectTransform canvas;
-    [SerializeField] GameObject contentPrefab;
+    [SerializeField] private GameObject contentPrefab;
+    [SerializeField] private string windowName = "MyTest";
 
     private Button _button;
 
@@ -28,7 +27,6 @@ public class StartButton : MonoBehaviour
 
     private void HandleClick()
     {
-        WindowController.Create(windowPrefab, canvas, "My Documents", contentPrefab);
-        Debug.Log("Start button clicked");
+        WindowManager.Instance.SpawnWindow(windowName, contentPrefab);
     }
 }

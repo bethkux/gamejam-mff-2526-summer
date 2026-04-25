@@ -49,7 +49,8 @@ public class WindowController : MonoBehaviour
     public void SetState(WindowState state) => _state = state;
     
     public RectTransform GetClientArea() => clientArea;
-    
+    public RectTransform GetCloseButtonRect() => closeButton != null ? closeButton.transform as RectTransform : null;
+
     void SpawnContent(GameObject contentPrefab)
     {
         if (contentPrefab == null) return;

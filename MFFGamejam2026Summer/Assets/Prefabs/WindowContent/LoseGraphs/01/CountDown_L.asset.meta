@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< Updated upstream:MFFGamejam2026Summer/Assets/Prefabs/WindowContent/LoseGraphs/01/CountDown_L.asset.meta
 guid: b9991b96a91dde94bb358e2350e8ca9c
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 11400000
+========
+guid: 95925a701e66442b3be4a8b51bcbed41
+folderAsset: yes
+DefaultImporter:
+  externalObjects: {}
+>>>>>>>> Stashed changes:MFFGamejam2026Summer/Assets/Sprites/Clippy/Materials.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 

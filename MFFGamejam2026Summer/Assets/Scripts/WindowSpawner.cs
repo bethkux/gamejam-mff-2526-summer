@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,10 @@ public class WindowManager : MonoBehaviour
     [SerializeField] private WindowController windowPrefab;
     [SerializeField] private RectTransform canvas;
 
+    // Read-only view of all currently open windows
+    public IReadOnlyList<WindowController> OpenWindows => _openWindows;
+    [SerializeField] private List<WindowController> _openWindows = new List<WindowController>();
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -15,7 +20,6 @@ public class WindowManager : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-
         Instance = this;
     }
 
@@ -35,7 +39,34 @@ public class WindowManager : MonoBehaviour
 
         var window = WindowController.Create(windowPrefab, canvas, windowName, contentPrefab);
         PlaceRandomInsideCanvas(window.transform as RectTransform);
+
+        _openWindows.Add(window);
+        window.OnWindowClosed += HandleWindowClosed;
+
         return window;
+    }
+
+    private void HandleWindowClosed(WindowController window)
+    {
+        window.OnWindowClosed -= HandleWindowClosed;
+        _openWindows.Remove(window);
+    }
+
+
+    public WindowController GetWindow(string windowName)
+    {
+        return _openWindows.Find(w => w.WindowName == windowName);
+    }
+
+    public bool IsWindowOpen(string windowName)
+    {
+        return _openWindows.Exists(w => w.WindowName == windowName);
+    }
+
+    public void CloseAllWindows()
+    {
+        foreach (var window in new List<WindowController>(_openWindows))
+            window.Close();
     }
 
     private void PlaceRandomInsideCanvas(RectTransform windowRect)
@@ -61,4 +92,3 @@ public class WindowManager : MonoBehaviour
         windowRect.anchoredPosition = new Vector2(randomX, randomY);
     }
 }
-

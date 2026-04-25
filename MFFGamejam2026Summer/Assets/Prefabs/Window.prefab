@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 6428303783694911860}
   - component: {fileID: 4565152329298816594}
   - component: {fileID: 7723799050983765524}
+  - component: {fileID: -5446689520358167693}
   m_Layer: 0
   m_Name: Window
   m_TagString: Untagged
@@ -213,6 +214,7 @@ MonoBehaviour:
   titleText: {fileID: 3187837679566679268}
   clientArea: {fileID: 8879944669003438459}
   closeButton: {fileID: 5215886175947044012}
+  isEvading: 0
 --- !u!114 &4565152329298816594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,6 +255,23 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &-5446689520358167693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2573727107570026966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb90f133d2c4acb936fb492f0c1b527, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WindowCloseEvader
+  windowRect: {fileID: 6895926461426089714}
+  closeButtonRect: {fileID: 8557079046260800313}
+  triggerDistance: 120
+  maxSpeed: 650
+  edgePadding: 8
 --- !u!1 &4417630163378362634
 GameObject:
   m_ObjectHideFlags: 0
@@ -590,7 +609,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 33.33, y: -38}
-  m_SizeDelta: {x: 8, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5540471036994529205
 CanvasRenderer:

@@ -9,6 +9,9 @@ public class WindowManager : MonoBehaviour
     [SerializeField] private WindowController windowPrefab;
     [SerializeField] private RectTransform canvas;
 
+    public RectTransform CanvasRect => canvas;
+    
+    
     // Read-only view of all currently open windows
     public IReadOnlyList<WindowController> OpenWindows => _openWindows;
     [SerializeField] private List<WindowController> _openWindows = new List<WindowController>();

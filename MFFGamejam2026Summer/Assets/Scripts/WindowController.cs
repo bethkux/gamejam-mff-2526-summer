@@ -13,11 +13,19 @@ public class WindowController : MonoBehaviour
     [SerializeField] TMP_Text titleText;
     [SerializeField] RectTransform clientArea;
     [SerializeField] Button closeButton;
+    [SerializeField] bool isEvading = false;
 
     WindowState _state = WindowState.Idle;
+    WindowCloseEvader _closeEvader;
 
     public string WindowName { get; private set; }
     public event System.Action<WindowController> OnWindowClosed;
+
+    public void SetEvading(bool evade)
+    {
+        if (_closeEvader != null)
+            _closeEvader.enabled = evade;
+    }
 
     // ----------------------------------------------------------------
     // Factory
@@ -41,6 +49,8 @@ public class WindowController : MonoBehaviour
     void Awake()
     {
         closeButton.onClick.AddListener(Close);
+        _closeEvader = GetComponent<WindowCloseEvader>();
+        _closeEvader.enabled = isEvading;
     }
 
     public void SetTitle(string title)

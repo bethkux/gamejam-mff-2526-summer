@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class WindowManager : MonoBehaviour
@@ -12,6 +13,14 @@ public class WindowManager : MonoBehaviour
     [SerializeField] private bool enableCloseGraph = true;
     [SerializeField] private int maxWindowsSpawnedPerClose = 4;
 
+    [FormerlySerializedAs("flowNode")]
+    [Header("Lose State Flow")]
+    [SerializeField] private List<WindowFlowNodeAsset> flowNodeList = new List<WindowFlowNodeAsset>();
+
+    [SerializeField] private float timeUntilNewGraphStarts = 20.0f;
+    private float _initialTimeUntilNewGraphStarts;
+    private int _graphIndex = 0;
+    
     public RectTransform CanvasRect => canvas;
     
     
@@ -28,6 +37,8 @@ public class WindowManager : MonoBehaviour
             return;
         }
         Instance = this;
+        
+        _initialTimeUntilNewGraphStarts = timeUntilNewGraphStarts;
 
     }
 
@@ -35,6 +46,17 @@ public class WindowManager : MonoBehaviour
     {
         if (Instance == this)
             Instance = null;
+    }
+
+    private void Update()
+    {
+        timeUntilNewGraphStarts -= Time.deltaTime;
+        if (timeUntilNewGraphStarts <= 0.0f)
+        {
+            timeUntilNewGraphStarts = _initialTimeUntilNewGraphStarts;
+            SpawnWindowFromNode(flowNodeList[_graphIndex]);
+            _graphIndex = (_graphIndex + 1) % flowNodeList.Count;
+        }
     }
 
     public WindowController SpawnWindow(string windowName, GameObject contentPrefab, bool evade = false)

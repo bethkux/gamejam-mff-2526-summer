@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eb0965e5b448ba351ec6f41d73fac, type: 3}
-  m_Name: SadEmoji
+  m_Name: 04_TellYourMom
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
-  title: 
-  contentPrefab: {fileID: 0}
-  applyEvade: 0
+  title: I swear i will!
+  contentPrefab: {fileID: 2097773374565476595, guid: 324045d21c4e5b141b35d08e95f84f0f, type: 3}
+  applyEvade: 1
   isClosable: 1
   closeSpawnMode: 0
   randomSpawnCount: 1

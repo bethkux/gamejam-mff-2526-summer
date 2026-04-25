@@ -63,4 +63,11 @@ MonoBehaviour:
     randomisePitch: 0
     pitchVariance: 0
     source: {fileID: 0}
+  - name: Error
+    clip: {fileID: 8300000, guid: c902a4eb31317244eb1f72bca01c6b42, type: 3}
+    volume: 1
+    pitch: 1
+    randomisePitch: 0
+    pitchVariance: 0
+    source: {fileID: 0}
   defaultFadeDuration: 1

@@ -33,12 +33,6 @@ public class TypewriterEffect : MonoBehaviour
             textComponent = GetComponent<TMP_Text>();
     }
 
-    private void Start()
-    {
-        Play("Test test hello is it working?");
-    }
-
-
     /// <summary>Play typewriter on the text currently set in the component.</summary>
     public void Play(TMP_Text text)
     {

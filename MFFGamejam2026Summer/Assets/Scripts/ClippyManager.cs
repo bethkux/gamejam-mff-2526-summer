@@ -3,30 +3,56 @@ using System.Collections.Generic;
 
 public class ClippyManager : MonoBehaviour
 {
-    [SerializeField] private AnimationClip animationClip;
+    [SerializeField] private TypewriterEffect typewriterEffect;
     private Animator animator;
-    private SpriteRenderer spriteRenderer;
+
+    private AnimatorStateInfo state;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        animator = GetComponent<Animator>();
-        spriteRenderer = GetComponent<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
+        think();
+        speak("Hello, I'm Clippy! I can help you with your tasks. Just click on me to see what I can do!");
     }
 
     // Update is called once per frame
     void Update()
     {
-        // if (animator.GetCurrentAnimatorStateInfo(0).IsName("Clippy_idle"))
-        // {
-        //     foreach (string animName in animations)
-        //     {
-        //         if (animName == "Clippy_weird")
-        //         {
-        //             animator.Play(animName);
-        //             break;
-        //         }
-        //     }
-        // }
+        state = animator.GetCurrentAnimatorStateInfo(0);
+
+        if (state.IsName("Clippy_leave") && state.normalizedTime >= 1f)
+        {
+            gameObject.SetActive(false);
+        }
+    }
+
+    public void idle()
+    {
+        gameObject.SetActive(true);
+        animator.Play("Clippy_idle");
+    }
+
+    public void leave()
+    {
+        gameObject.SetActive(true);
+        animator.Play("Clippy_leave");
+    }
+
+    public void think()
+    {
+        gameObject.SetActive(true);
+        animator.Play("Clippy_think");
+    }
+
+    public void penguin()
+    {
+        gameObject.SetActive(true);
+        animator.Play("Penguin");
+    }
+
+    public void speak(string text)
+    {
+        typewriterEffect.Play(text);
     }
 }

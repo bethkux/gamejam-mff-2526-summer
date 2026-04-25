@@ -10,10 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7921808611653528020}
   - component: {fileID: 3784965627911831915}
-  - component: {fileID: 5194181488978658260}
-  - component: {fileID: 5851814623415059723}
+  - component: {fileID: 1321504507085795052}
   m_Layer: 0
-  m_Name: clip (idle)_sheet_0
+  m_Name: body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -93,7 +92,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!95 &5194181488978658260
+--- !u!95 &1321504507085795052
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -103,7 +102,7 @@ Animator:
   m_GameObject: {fileID: 876401300137588338}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 165739affe29c4b68918ad8f628eb370, type: 2}
+  m_Controller: {fileID: 9100000, guid: cc41d0a0dfc1f48f7b1989eb096093d4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -115,19 +114,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &5851814623415059723
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 876401300137588338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62786b02bd9314024b77ee6ecc6e43b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ClippyManager
-  animationClip: {fileID: 7400000, guid: 54f5f925d416240ddac431312e50ce34, type: 2}
 --- !u!1 &4599875516870308738
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,6 +123,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5516298797084527897}
+  - component: {fileID: 8340780057672988295}
   m_Layer: 0
   m_Name: Clippy
   m_TagString: Untagged
@@ -161,6 +148,19 @@ Transform:
   - {fileID: 1382429271565481099}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8340780057672988295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4599875516870308738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62786b02bd9314024b77ee6ecc6e43b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ClippyManager
+  typewriterEffect: {fileID: 8348654012140311405}
 --- !u!1 &6219366401750980529
 GameObject:
   m_ObjectHideFlags: 0
@@ -264,6 +264,7 @@ GameObject:
   - component: {fileID: 4877696343154472037}
   - component: {fileID: 5190021504409734133}
   - component: {fileID: 1998727118876587090}
+  - component: {fileID: 8348654012140311405}
   m_Layer: 0
   m_Name: Text
   m_TagString: Untagged
@@ -434,3 +435,22 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 5190021504409734133}
   m_maskType: 0
+--- !u!114 &8348654012140311405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8526552355514036180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b49f7064472db4eb60afd1f7cfefa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::TypewriterEffect
+  textComponent: {fileID: 1998727118876587090}
+  charsPerSecond: 20
+  pauseOnPunctuation: 1
+  punctuationPause: 0.15
+  onComplete:
+    m_PersistentCalls:
+      m_Calls: []

@@ -8,6 +8,9 @@ public class WindowManager : MonoBehaviour
 
     [SerializeField] private WindowController windowPrefab;
     [SerializeField] private RectTransform canvas;
+    [Header("Close Flow")]
+    [SerializeField] private bool enableCloseGraph = true;
+    [SerializeField] private int maxWindowsSpawnedPerClose = 4;
 
     public RectTransform CanvasRect => canvas;
     
@@ -15,6 +18,7 @@ public class WindowManager : MonoBehaviour
     // Read-only view of all currently open windows
     public IReadOnlyList<WindowController> OpenWindows => _openWindows;
     [SerializeField] private List<WindowController> _openWindows = new List<WindowController>();
+    private readonly Dictionary<WindowController, WindowFlowNodeAsset> _windowNodeMap = new Dictionary<WindowController, WindowFlowNodeAsset>();
 
     private void Awake()
     {
@@ -24,6 +28,7 @@ public class WindowManager : MonoBehaviour
             return;
         }
         Instance = this;
+
     }
 
     private void OnDestroy()
@@ -51,10 +56,103 @@ public class WindowManager : MonoBehaviour
         return window;
     }
 
+    public WindowController SpawnWindowFromNode(WindowFlowNodeAsset node)
+    {
+        if (node == null)
+        {
+            Debug.LogWarning("Tried to spawn a null flow node.");
+            return null;
+        }
+
+        var title = string.IsNullOrWhiteSpace(node.title) ? node.name : node.title;
+        var window = SpawnWindow(title, node.contentPrefab, node.applyEvade);
+        if (window != null)
+        {
+            window.IsClosable = node.isClosable;
+            _windowNodeMap[window] = node;
+        }
+
+        return window;
+    }
+
     private void HandleWindowClosed(WindowController window)
     {
         window.OnWindowClosed -= HandleWindowClosed;
         _openWindows.Remove(window);
+
+        _windowNodeMap.TryGetValue(window, out var closedNode);
+        _windowNodeMap.Remove(window);
+
+        if (enableCloseGraph)
+            SpawnGraphFollowers(closedNode);
+    }
+
+    private void SpawnGraphFollowers(WindowFlowNodeAsset closedNode)
+    {
+        if (closedNode == null)
+            return;
+
+        if (closedNode.nextWindows == null || closedNode.nextWindows.Count == 0)
+            return;
+
+        int safeLimit = Mathf.Max(1, maxWindowsSpawnedPerClose);
+        int spawned = 0;
+
+        if (closedNode.closeSpawnMode == CloseSpawnMode.SpawnAll)
+        {
+            for (int i = 0; i < closedNode.nextWindows.Count && spawned < safeLimit; i++)
+            {
+                var nextNode = closedNode.nextWindows[i] != null ? closedNode.nextWindows[i].nextNode : null;
+                if (nextNode == null)
+                    continue;
+
+                if (SpawnWindowFromNode(nextNode) != null)
+                    spawned++;
+            }
+
+            return;
+        }
+
+        int countToSpawn = Mathf.Min(Mathf.Max(1, closedNode.randomSpawnCount), safeLimit);
+        var pool = new List<WindowFlowLink>(closedNode.nextWindows);
+
+        while (pool.Count > 0 && spawned < countToSpawn)
+        {
+            var pick = PickWeighted(pool);
+            if (pick == null)
+                break;
+
+            pool.Remove(pick);
+
+            var nextNode = pick.nextNode;
+            if (nextNode == null)
+                continue;
+
+            if (SpawnWindowFromNode(nextNode) != null)
+                spawned++;
+        }
+    }
+
+    private WindowFlowLink PickWeighted(List<WindowFlowLink> links)
+    {
+        float total = 0f;
+        for (int i = 0; i < links.Count; i++)
+            total += Mathf.Max(0f, links[i].weight);
+
+        if (total <= 0f)
+            return links.Count > 0 ? links[Random.Range(0, links.Count)] : null;
+
+        float roll = Random.value * total;
+        float cumulative = 0f;
+
+        for (int i = 0; i < links.Count; i++)
+        {
+            cumulative += Mathf.Max(0f, links[i].weight);
+            if (roll <= cumulative)
+                return links[i];
+        }
+
+        return links[links.Count - 1];
     }
 
 

@@ -150,6 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WindowManager
   windowPrefab: {fileID: 6428303783694911860, guid: 7970301b596dd1045887bc003edea095, type: 3}
   canvas: {fileID: 255764005}
+  _openWindows: []
 --- !u!4 &188585080
 Transform:
   m_ObjectHideFlags: 0

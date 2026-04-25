@@ -27,9 +27,6 @@ public class WindowController : MonoBehaviour
             _closeEvader.enabled = evade;
     }
 
-    // ----------------------------------------------------------------
-    // Factory
-    // ----------------------------------------------------------------
     public static WindowController Create(
         WindowController prefab,
         Transform parent,
@@ -43,14 +40,12 @@ public class WindowController : MonoBehaviour
         return win;
     }
 
-    // ----------------------------------------------------------------
-    // Lifecycle
-    // ----------------------------------------------------------------
     void Awake()
     {
         closeButton.onClick.AddListener(Close);
         _closeEvader = GetComponent<WindowCloseEvader>();
-        _closeEvader.enabled = isEvading;
+        if (_closeEvader != null )
+            _closeEvader.enabled = isEvading;
     }
 
     public void SetTitle(string title)

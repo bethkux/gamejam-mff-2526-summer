@@ -570,6 +570,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3445896bbe18d544851025340c2f8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  windowPrefab: {fileID: 6428303783694911860, guid: 38bc7a192bc5afc4c91d7e33f0ae9f12, type: 3}
+  canvas: {fileID: 255764005}
+  contentPrefab: {fileID: 2573727107570026966, guid: 38bc7a192bc5afc4c91d7e33f0ae9f12, type: 3}
 --- !u!1 &571984370
 GameObject:
   m_ObjectHideFlags: 0

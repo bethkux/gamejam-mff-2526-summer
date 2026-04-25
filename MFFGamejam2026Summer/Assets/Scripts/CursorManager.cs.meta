@@ -4,10 +4,13 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - cursorTexture: {fileID: 2800000, guid: d2bb00f8d0c3c4ecebd5ec83b6535b90, type: 3}
-  - cursorLoadingTexture: {fileID: 2800000, guid: eefaca50b85c14a14a94b9de441ed8f2, type: 3}
-  - cursorBannedInteractionTexture: {fileID: 2800000, guid: 4515df4b551084c46af30505ca88c0aa, type: 3}
-  - resizeTexture: {fileID: 2800000, guid: 16323a2942d03447eb3a576ba506743e, type: 3}
+  - cursorDefault: {fileID: 2800000, guid: d2bb00f8d0c3c4ecebd5ec83b6535b90, type: 3}
+  - cursorLoading: {fileID: 2800000, guid: 4515df4b551084c46af30505ca88c0aa, type: 3}
+  - cursorBannedInteraction: {fileID: 2800000, guid: 4515df4b551084c46af30505ca88c0aa, type: 3}
+  - cursorResize: {fileID: 2800000, guid: dbfb664efaf914d2d8cd6dab964c9eff, type: 3}
+  - fakeCursorRect: {instanceID: 0}
+  - fakeCursorImage: {instanceID: 0}
+  - uiCanvas: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

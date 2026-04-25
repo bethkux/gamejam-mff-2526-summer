@@ -451,12 +451,12 @@ TextureImporter:
       name: clip (weird)_sheet_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 51
-        width: 154
-        height: 141
+        x: 0
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -473,12 +473,12 @@ TextureImporter:
       name: clip (weird)_sheet_1
       rect:
         serializedVersion: 2
-        x: 313
-        y: 64
-        width: 52
-        height: 129
+        x: 240
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -495,12 +495,12 @@ TextureImporter:
       name: clip (weird)_sheet_2
       rect:
         serializedVersion: 2
-        x: 552
-        y: 85
-        width: 65
-        height: 113
+        x: 480
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -517,12 +517,12 @@ TextureImporter:
       name: clip (weird)_sheet_3
       rect:
         serializedVersion: 2
-        x: 749
-        y: 95
-        width: 116
-        height: 106
+        x: 720
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -539,12 +539,12 @@ TextureImporter:
       name: clip (weird)_sheet_4
       rect:
         serializedVersion: 2
-        x: 865
-        y: 131
-        width: 8
-        height: 6
+        x: 960
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -561,12 +561,12 @@ TextureImporter:
       name: clip (weird)_sheet_5
       rect:
         serializedVersion: 2
-        x: 978
-        y: 87
-        width: 158
-        height: 112
+        x: 1200
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -583,12 +583,12 @@ TextureImporter:
       name: clip (weird)_sheet_6
       rect:
         serializedVersion: 2
-        x: 1135
-        y: 132
-        width: 8
-        height: 6
+        x: 1440
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -605,12 +605,12 @@ TextureImporter:
       name: clip (weird)_sheet_7
       rect:
         serializedVersion: 2
-        x: 1218
-        y: 87
-        width: 156
-        height: 114
+        x: 1680
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -627,12 +627,12 @@ TextureImporter:
       name: clip (weird)_sheet_8
       rect:
         serializedVersion: 2
-        x: 1373
-        y: 132
-        width: 10
-        height: 6
+        x: 1920
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -649,12 +649,12 @@ TextureImporter:
       name: clip (weird)_sheet_9
       rect:
         serializedVersion: 2
-        x: 1459
-        y: 77
-        width: 180
-        height: 124
+        x: 2160
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -671,12 +671,12 @@ TextureImporter:
       name: clip (weird)_sheet_10
       rect:
         serializedVersion: 2
-        x: 1691
-        y: 88
-        width: 170
-        height: 113
+        x: 2400
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -693,12 +693,12 @@ TextureImporter:
       name: clip (weird)_sheet_11
       rect:
         serializedVersion: 2
-        x: 1931
-        y: 88
-        width: 170
-        height: 113
+        x: 2640
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -715,12 +715,12 @@ TextureImporter:
       name: clip (weird)_sheet_12
       rect:
         serializedVersion: 2
-        x: 2179
-        y: 83
-        width: 166
-        height: 115
+        x: 2880
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -737,12 +737,12 @@ TextureImporter:
       name: clip (weird)_sheet_13
       rect:
         serializedVersion: 2
-        x: 2421
-        y: 55
-        width: 183
-        height: 144
+        x: 3120
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -759,12 +759,12 @@ TextureImporter:
       name: clip (weird)_sheet_14
       rect:
         serializedVersion: 2
-        x: 2661
-        y: 80
-        width: 176
-        height: 121
+        x: 3360
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -781,12 +781,12 @@ TextureImporter:
       name: clip (weird)_sheet_15
       rect:
         serializedVersion: 2
-        x: 2899
-        y: 88
-        width: 86
-        height: 81
+        x: 3600
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -803,12 +803,12 @@ TextureImporter:
       name: clip (weird)_sheet_16
       rect:
         serializedVersion: 2
-        x: 2953
-        y: 97
-        width: 106
-        height: 102
+        x: 3840
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -825,12 +825,12 @@ TextureImporter:
       name: clip (weird)_sheet_17
       rect:
         serializedVersion: 2
-        x: 3139
-        y: 88
-        width: 160
-        height: 111
+        x: 4080
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -847,12 +847,12 @@ TextureImporter:
       name: clip (weird)_sheet_18
       rect:
         serializedVersion: 2
-        x: 3378
-        y: 87
-        width: 161
-        height: 114
+        x: 4320
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -869,12 +869,12 @@ TextureImporter:
       name: clip (weird)_sheet_19
       rect:
         serializedVersion: 2
-        x: 3618
-        y: 85
-        width: 161
-        height: 116
+        x: 4560
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -891,12 +891,12 @@ TextureImporter:
       name: clip (weird)_sheet_20
       rect:
         serializedVersion: 2
-        x: 3858
-        y: 85
-        width: 161
-        height: 114
+        x: 4800
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -913,12 +913,12 @@ TextureImporter:
       name: clip (weird)_sheet_21
       rect:
         serializedVersion: 2
-        x: 4098
-        y: 85
-        width: 161
-        height: 116
+        x: 5040
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -935,12 +935,12 @@ TextureImporter:
       name: clip (weird)_sheet_22
       rect:
         serializedVersion: 2
-        x: 4338
-        y: 85
-        width: 161
-        height: 113
+        x: 5280
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -957,12 +957,12 @@ TextureImporter:
       name: clip (weird)_sheet_23
       rect:
         serializedVersion: 2
-        x: 4578
-        y: 85
-        width: 161
-        height: 116
+        x: 5520
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -979,12 +979,12 @@ TextureImporter:
       name: clip (weird)_sheet_24
       rect:
         serializedVersion: 2
-        x: 4817
-        y: 85
-        width: 162
-        height: 114
+        x: 5760
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1001,12 +1001,12 @@ TextureImporter:
       name: clip (weird)_sheet_25
       rect:
         serializedVersion: 2
-        x: 5057
-        y: 86
-        width: 162
-        height: 115
+        x: 6000
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1023,12 +1023,12 @@ TextureImporter:
       name: clip (weird)_sheet_26
       rect:
         serializedVersion: 2
-        x: 5297
-        y: 86
-        width: 162
-        height: 112
+        x: 6240
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1045,12 +1045,12 @@ TextureImporter:
       name: clip (weird)_sheet_27
       rect:
         serializedVersion: 2
-        x: 5538
-        y: 85
-        width: 161
-        height: 114
+        x: 6480
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1067,12 +1067,12 @@ TextureImporter:
       name: clip (weird)_sheet_28
       rect:
         serializedVersion: 2
-        x: 5777
-        y: 85
-        width: 162
-        height: 114
+        x: 6720
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1089,12 +1089,12 @@ TextureImporter:
       name: clip (weird)_sheet_29
       rect:
         serializedVersion: 2
-        x: 6017
-        y: 85
-        width: 162
-        height: 114
+        x: 6960
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1111,12 +1111,12 @@ TextureImporter:
       name: clip (weird)_sheet_30
       rect:
         serializedVersion: 2
-        x: 6257
-        y: 86
-        width: 162
-        height: 112
+        x: 7200
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1133,12 +1133,12 @@ TextureImporter:
       name: clip (weird)_sheet_31
       rect:
         serializedVersion: 2
-        x: 6497
-        y: 86
-        width: 162
-        height: 112
+        x: 7440
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1155,12 +1155,12 @@ TextureImporter:
       name: clip (weird)_sheet_32
       rect:
         serializedVersion: 2
-        x: 6738
-        y: 53
-        width: 177
-        height: 146
+        x: 7680
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1177,12 +1177,12 @@ TextureImporter:
       name: clip (weird)_sheet_33
       rect:
         serializedVersion: 2
-        x: 6978
-        y: 53
-        width: 177
-        height: 148
+        x: 7920
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1199,12 +1199,12 @@ TextureImporter:
       name: clip (weird)_sheet_34
       rect:
         serializedVersion: 2
-        x: 7218
-        y: 53
-        width: 177
-        height: 148
+        x: 8160
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1221,12 +1221,12 @@ TextureImporter:
       name: clip (weird)_sheet_35
       rect:
         serializedVersion: 2
-        x: 7458
-        y: 53
-        width: 177
-        height: 146
+        x: 8400
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1243,12 +1243,12 @@ TextureImporter:
       name: clip (weird)_sheet_36
       rect:
         serializedVersion: 2
-        x: 7698
-        y: 53
-        width: 177
-        height: 146
+        x: 8640
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1265,12 +1265,12 @@ TextureImporter:
       name: clip (weird)_sheet_37
       rect:
         serializedVersion: 2
-        x: 7938
-        y: 53
-        width: 177
-        height: 148
+        x: 8880
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1287,12 +1287,12 @@ TextureImporter:
       name: clip (weird)_sheet_38
       rect:
         serializedVersion: 2
-        x: 8178
-        y: 53
-        width: 177
-        height: 146
+        x: 9120
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1309,12 +1309,12 @@ TextureImporter:
       name: clip (weird)_sheet_39
       rect:
         serializedVersion: 2
-        x: 8418
-        y: 53
-        width: 177
-        height: 146
+        x: 9360
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1331,12 +1331,12 @@ TextureImporter:
       name: clip (weird)_sheet_40
       rect:
         serializedVersion: 2
-        x: 8658
-        y: 53
-        width: 177
-        height: 148
+        x: 9600
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1353,12 +1353,12 @@ TextureImporter:
       name: clip (weird)_sheet_41
       rect:
         serializedVersion: 2
-        x: 8898
-        y: 87
-        width: 165
-        height: 114
+        x: 9840
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1375,12 +1375,12 @@ TextureImporter:
       name: clip (weird)_sheet_42
       rect:
         serializedVersion: 2
-        x: 9149
-        y: 95
-        width: 116
-        height: 104
+        x: 10080
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1393,1639 +1393,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_43
-      rect:
-        serializedVersion: 2
-        x: 9264
-        y: 131
-        width: 9
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d3a3d1907e90b3bf0800000000000000
-      internalID: -343670058668705219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_44
-      rect:
-        serializedVersion: 2
-        x: 9431
-        y: 85
-        width: 66
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: deb996da09793d790800000000000000
-      internalID: -7506489506256020499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_45
-      rect:
-        serializedVersion: 2
-        x: 9671
-        y: 85
-        width: 66
-        height: 113
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e72dcad3e68503260800000000000000
-      internalID: 7075252245103432318
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_46
-      rect:
-        serializedVersion: 2
-        x: 9912
-        y: 64
-        width: 53
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4206acf4a015fd290800000000000000
-      internalID: -7863477319635410908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_47
-      rect:
-        serializedVersion: 2
-        x: 10115
-        y: 51
-        width: 154
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2d7022649df5cf10800000000000000
-      internalID: 2289514799331048751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_48
-      rect:
-        serializedVersion: 2
-        x: 859
-        y: 67
-        width: 20
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a0f1c1d333f340f60800000000000000
-      internalID: 7999588327417978634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_49
-      rect:
-        serializedVersion: 2
-        x: 871
-        y: 83
-        width: 14
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5aeac1046c626df0800000000000000
-      internalID: -188469057613534625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_50
-      rect:
-        serializedVersion: 2
-        x: 1119
-        y: 82
-        width: 38
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 574440eed34b283c0800000000000000
-      internalID: -4358723311261957003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_51
-      rect:
-        serializedVersion: 2
-        x: 1359
-        y: 83
-        width: 38
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e46a8e0e46dedc1f0800000000000000
-      internalID: -1022900522817378738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_52
-      rect:
-        serializedVersion: 2
-        x: 1837
-        y: 87
-        width: 42
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a9b24194028c838d0800000000000000
-      internalID: -2866321121830753382
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_53
-      rect:
-        serializedVersion: 2
-        x: 2077
-        y: 87
-        width: 42
-        height: 10
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cd80d42ed9da380e0800000000000000
-      internalID: -2268778893646427940
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_54
-      rect:
-        serializedVersion: 2
-        x: 2318
-        y: 85
-        width: 43
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8ed2bc71bc785470800000000000000
-      internalID: 8383587808093331083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_55
-      rect:
-        serializedVersion: 2
-        x: 2989
-        y: 91
-        width: 28
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e8b918582276f93b0800000000000000
-      internalID: -5503566821657044082
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_56
-      rect:
-        serializedVersion: 2
-        x: 3032
-        y: 82
-        width: 43
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bd462e39eae8e2d70800000000000000
-      internalID: 9020303984126223579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_57
-      rect:
-        serializedVersion: 2
-        x: 3273
-        y: 81
-        width: 42
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: babaf07f45bde0f10800000000000000
-      internalID: 2237967222818450347
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_58
-      rect:
-        serializedVersion: 2
-        x: 3513
-        y: 83
-        width: 42
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 00d855b6402d64fc0800000000000000
-      internalID: -3510887943066252032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_59
-      rect:
-        serializedVersion: 2
-        x: 3749
-        y: 53
-        width: 46
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0879eeca29d84ea20800000000000000
-      internalID: 3090750905389062016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_60
-      rect:
-        serializedVersion: 2
-        x: 3989
-        y: 53
-        width: 46
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1dc7b09dd7c2f9f80800000000000000
-      internalID: -8097704685964919599
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_61
-      rect:
-        serializedVersion: 2
-        x: 4229
-        y: 53
-        width: 46
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19bf6b40fb65fa8a0800000000000000
-      internalID: -6291714775995450479
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_62
-      rect:
-        serializedVersion: 2
-        x: 4469
-        y: 53
-        width: 46
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ee4f7a0423fb4d2b0800000000000000
-      internalID: -5560609417341700882
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_63
-      rect:
-        serializedVersion: 2
-        x: 4709
-        y: 53
-        width: 46
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 58a939e6fc2131510800000000000000
-      internalID: 1518578181476686469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_64
-      rect:
-        serializedVersion: 2
-        x: 4949
-        y: 53
-        width: 54
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dcae2a05ea2a98440800000000000000
-      internalID: 4938657335949322957
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_65
-      rect:
-        serializedVersion: 2
-        x: 5189
-        y: 53
-        width: 54
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2c534bf1e2eb38560800000000000000
-      internalID: 7314899325089494466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_66
-      rect:
-        serializedVersion: 2
-        x: 5429
-        y: 53
-        width: 54
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 101dcff8a7709d100800000000000000
-      internalID: 133145886967255297
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_67
-      rect:
-        serializedVersion: 2
-        x: 5669
-        y: 53
-        width: 46
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28da77fd91421ae50800000000000000
-      internalID: 6818771004357586306
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_68
-      rect:
-        serializedVersion: 2
-        x: 5915
-        y: 62
-        width: 48
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ba9c72673e141f550800000000000000
-      internalID: 6192803407806843307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_69
-      rect:
-        serializedVersion: 2
-        x: 6149
-        y: 52
-        width: 54
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0a8cb0e8134ecd0c0800000000000000
-      internalID: -4549510622063376224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_70
-      rect:
-        serializedVersion: 2
-        x: 6389
-        y: 52
-        width: 54
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b750bb696ce1bc0a0800000000000000
-      internalID: -6860355769087621765
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_71
-      rect:
-        serializedVersion: 2
-        x: 6629
-        y: 53
-        width: 54
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 12d13999e374b2090800000000000000
-      internalID: -8058268774059270879
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_72
-      rect:
-        serializedVersion: 2
-        x: 9039
-        y: 86
-        width: 36
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fccf05440faf7980800000000000000
-      internalID: -8538913935597777677
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_73
-      rect:
-        serializedVersion: 2
-        x: 9259
-        y: 67
-        width: 19
-        height: 42
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 573de3ffaf1af90b0800000000000000
-      internalID: -5719674902341037195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_74
-      rect:
-        serializedVersion: 2
-        x: 9271
-        y: 83
-        width: 14
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9005bee6d58311e00800000000000000
-      internalID: 1013653365079101449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_75
-      rect:
-        serializedVersion: 2
-        x: 587
-        y: 69
-        width: 9
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c54333bbf75ada530800000000000000
-      internalID: 3867929623001248860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_76
-      rect:
-        serializedVersion: 2
-        x: 1119
-        y: 56
-        width: 12
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 168c65183a2f7a1b0800000000000000
-      internalID: -5645276823822088095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_77
-      rect:
-        serializedVersion: 2
-        x: 1149
-        y: 73
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 64dd2c54361b24620800000000000000
-      internalID: 2756960961834442054
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_78
-      rect:
-        serializedVersion: 2
-        x: 1359
-        y: 56
-        width: 14
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 738df400f02e76a00800000000000000
-      internalID: 749816417038096439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_79
-      rect:
-        serializedVersion: 2
-        x: 1389
-        y: 73
-        width: 18
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f2d41c3cd75fffc0800000000000000
-      internalID: -3458949385384832264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_80
-      rect:
-        serializedVersion: 2
-        x: 1600
-        y: 54
-        width: 15
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 50219441bc845e260800000000000000
-      internalID: 7126182022439571973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_81
-      rect:
-        serializedVersion: 2
-        x: 1633
-        y: 71
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a4bd0da4b386141c0800000000000000
-      internalID: -4521217947035706550
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_82
-      rect:
-        serializedVersion: 2
-        x: 1825
-        y: 59
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e955bcd9685824890800000000000000
-      internalID: -7475265618262141538
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_83
-      rect:
-        serializedVersion: 2
-        x: 1863
-        y: 59
-        width: 18
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c68ea1ac868244240800000000000000
-      internalID: 4774985935452039276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_84
-      rect:
-        serializedVersion: 2
-        x: 2065
-        y: 59
-        width: 14
-        height: 24
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: eaa6a36ae632512a0800000000000000
-      internalID: -6767463906912081234
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_85
-      rect:
-        serializedVersion: 2
-        x: 2103
-        y: 59
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7f66785d258ba1560800000000000000
-      internalID: 7285338013134448375
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_86
-      rect:
-        serializedVersion: 2
-        x: 2353
-        y: 66
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a644e0618be9dbab0800000000000000
-      internalID: -4990658298575436694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_87
-      rect:
-        serializedVersion: 2
-        x: 2789
-        y: 51
-        width: 18
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9bc66810ad10f52d0800000000000000
-      internalID: -3287907167117087559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_88
-      rect:
-        serializedVersion: 2
-        x: 2827
-        y: 60
-        width: 16
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de996ca6ce56d58f0800000000000000
-      internalID: -550171513391244819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_89
-      rect:
-        serializedVersion: 2
-        x: 3065
-        y: 59
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 293640838833084f0800000000000000
-      internalID: -828605671287790702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_90
-      rect:
-        serializedVersion: 2
-        x: 3305
-        y: 59
-        width: 16
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a634b38d808c29920800000000000000
-      internalID: 2995676642467857258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_91
-      rect:
-        serializedVersion: 2
-        x: 3543
-        y: 59
-        width: 20
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0d2725fbec0a5b770800000000000000
-      internalID: 8625977471131611856
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_92
-      rect:
-        serializedVersion: 2
-        x: 3785
-        y: 63
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0e9a9b7559edb40e0800000000000000
-      internalID: -2284487652957115936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_93
-      rect:
-        serializedVersion: 2
-        x: 4025
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d9e10ea96e94bbf0800000000000000
-      internalID: -309448297653605934
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_94
-      rect:
-        serializedVersion: 2
-        x: 4265
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f708b332eee14fde0800000000000000
-      internalID: -1300380384261078913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_95
-      rect:
-        serializedVersion: 2
-        x: 4505
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f518b898e37e73f20800000000000000
-      internalID: 3402442299283308895
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_96
-      rect:
-        serializedVersion: 2
-        x: 4745
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fa1e6f8783210a90800000000000000
-      internalID: -7349554051758023949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_97
-      rect:
-        serializedVersion: 2
-        x: 5705
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4e1e38cf020c49990800000000000000
-      internalID: -7380062641445412380
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_98
-      rect:
-        serializedVersion: 2
-        x: 5909
-        y: 52
-        width: 18
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f431591ec2efc6c0800000000000000
-      internalID: -4120825759204821767
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_99
-      rect:
-        serializedVersion: 2
-        x: 6905
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ddfb853d0af172f20800000000000000
-      internalID: 3397719219475365853
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_100
-      rect:
-        serializedVersion: 2
-        x: 7145
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 45155d54308770190800000000000000
-      internalID: -7996290657921183404
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_101
-      rect:
-        serializedVersion: 2
-        x: 7385
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 639177c345093e340800000000000000
-      internalID: 4891912311720581430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_102
-      rect:
-        serializedVersion: 2
-        x: 7625
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 324024e17699446b0800000000000000
-      internalID: -5312952992222018525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_103
-      rect:
-        serializedVersion: 2
-        x: 7865
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ce34d487ada427c0800000000000000
-      internalID: -4096958826000662847
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_104
-      rect:
-        serializedVersion: 2
-        x: 8105
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 48277d11858443dd0800000000000000
-      internalID: -2507299549444869500
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_105
-      rect:
-        serializedVersion: 2
-        x: 8345
-        y: 62
-        width: 18
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9ce50748d4919df20800000000000000
-      internalID: 3447814810453958345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_106
-      rect:
-        serializedVersion: 2
-        x: 8585
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 91da0545cead81c40800000000000000
-      internalID: 5483373254885289241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_107
-      rect:
-        serializedVersion: 2
-        x: 8825
-        y: 62
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5407edb6e0e0f4b80800000000000000
-      internalID: -8408486524175355835
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_108
-      rect:
-        serializedVersion: 2
-        x: 9039
-        y: 56
-        width: 14
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de5779bdc2625d4d0800000000000000
-      internalID: -3110537993524906515
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_109
-      rect:
-        serializedVersion: 2
-        x: 9069
-        y: 72
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: af1d455f8714028d0800000000000000
-      internalID: -2873224574494518790
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_110
-      rect:
-        serializedVersion: 2
-        x: 9467
-        y: 69
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c054f17048065c550800000000000000
-      internalID: 6180452183807313164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_111
-      rect:
-        serializedVersion: 2
-        x: 9707
-        y: 69
-        width: 10
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 67816df46f23f86f0800000000000000
-      internalID: -680268985226880906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_112
-      rect:
-        serializedVersion: 2
-        x: 2315
-        y: 53
-        width: 18
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 656065e92949803e0800000000000000
-      internalID: -2087255069843650986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_113
-      rect:
-        serializedVersion: 2
-        x: 2551
-        y: 51
-        width: 14
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dfef564df3bdd1900800000000000000
-      internalID: 656922187858837245
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_114
-      rect:
-        serializedVersion: 2
-        x: 3025
-        y: 51
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e136534ddfee3af50800000000000000
-      internalID: 6891614628761395998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_115
-      rect:
-        serializedVersion: 2
-        x: 3267
-        y: 51
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ed008e83ad6f17640800000000000000
-      internalID: 5076109672141291742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (weird)_sheet_116
-      rect:
-        serializedVersion: 2
-        x: 3505
-        y: 51
-        width: 18
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: efed1ec7f42f5a290800000000000000
-      internalID: -7879625549803299074
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 0f21b76aa3bf585418a7562f59eb94bf
     internalID: 0
     vertices: []
     indices: 
@@ -3033,29 +1405,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":43.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":240.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       clip (weird)_sheet_0: -6225161633609666609
       clip (weird)_sheet_1: 8624871220473739863
       clip (weird)_sheet_10: 3685201948301922289
-      clip (weird)_sheet_100: -7996290657921183404
-      clip (weird)_sheet_101: 4891912311720581430
-      clip (weird)_sheet_102: -5312952992222018525
-      clip (weird)_sheet_103: -4096958826000662847
-      clip (weird)_sheet_104: -2507299549444869500
-      clip (weird)_sheet_105: 3447814810453958345
-      clip (weird)_sheet_106: 5483373254885289241
-      clip (weird)_sheet_107: -8408486524175355835
-      clip (weird)_sheet_108: -3110537993524906515
-      clip (weird)_sheet_109: -2873224574494518790
       clip (weird)_sheet_11: -8737486495895726578
-      clip (weird)_sheet_110: 6180452183807313164
-      clip (weird)_sheet_111: -680268985226880906
-      clip (weird)_sheet_112: -2087255069843650986
-      clip (weird)_sheet_113: 656922187858837245
-      clip (weird)_sheet_114: 6891614628761395998
-      clip (weird)_sheet_115: 5076109672141291742
-      clip (weird)_sheet_116: -7879625549803299074
       clip (weird)_sheet_12: -8638272184966593501
       clip (weird)_sheet_13: 5541534222156516723
       clip (weird)_sheet_14: -4314048031041299872
@@ -3090,68 +1447,11 @@ TextureImporter:
       clip (weird)_sheet_40: -8180514935445252674
       clip (weird)_sheet_41: 120842834582267018
       clip (weird)_sheet_42: 4574487379795742884
-      clip (weird)_sheet_43: -343670058668705219
-      clip (weird)_sheet_44: -7506489506256020499
-      clip (weird)_sheet_45: 7075252245103432318
-      clip (weird)_sheet_46: -7863477319635410908
-      clip (weird)_sheet_47: 2289514799331048751
-      clip (weird)_sheet_48: 7999588327417978634
-      clip (weird)_sheet_49: -188469057613534625
       clip (weird)_sheet_5: 1493945399077984568
-      clip (weird)_sheet_50: -4358723311261957003
-      clip (weird)_sheet_51: -1022900522817378738
-      clip (weird)_sheet_52: -2866321121830753382
-      clip (weird)_sheet_53: -2268778893646427940
-      clip (weird)_sheet_54: 8383587808093331083
-      clip (weird)_sheet_55: -5503566821657044082
-      clip (weird)_sheet_56: 9020303984126223579
-      clip (weird)_sheet_57: 2237967222818450347
-      clip (weird)_sheet_58: -3510887943066252032
-      clip (weird)_sheet_59: 3090750905389062016
       clip (weird)_sheet_6: -4598925953136203782
-      clip (weird)_sheet_60: -8097704685964919599
-      clip (weird)_sheet_61: -6291714775995450479
-      clip (weird)_sheet_62: -5560609417341700882
-      clip (weird)_sheet_63: 1518578181476686469
-      clip (weird)_sheet_64: 4938657335949322957
-      clip (weird)_sheet_65: 7314899325089494466
-      clip (weird)_sheet_66: 133145886967255297
-      clip (weird)_sheet_67: 6818771004357586306
-      clip (weird)_sheet_68: 6192803407806843307
-      clip (weird)_sheet_69: -4549510622063376224
       clip (weird)_sheet_7: 7328682214058061413
-      clip (weird)_sheet_70: -6860355769087621765
-      clip (weird)_sheet_71: -8058268774059270879
-      clip (weird)_sheet_72: -8538913935597777677
-      clip (weird)_sheet_73: -5719674902341037195
-      clip (weird)_sheet_74: 1013653365079101449
-      clip (weird)_sheet_75: 3867929623001248860
-      clip (weird)_sheet_76: -5645276823822088095
-      clip (weird)_sheet_77: 2756960961834442054
-      clip (weird)_sheet_78: 749816417038096439
-      clip (weird)_sheet_79: -3458949385384832264
       clip (weird)_sheet_8: 8515382818023456425
-      clip (weird)_sheet_80: 7126182022439571973
-      clip (weird)_sheet_81: -4521217947035706550
-      clip (weird)_sheet_82: -7475265618262141538
-      clip (weird)_sheet_83: 4774985935452039276
-      clip (weird)_sheet_84: -6767463906912081234
-      clip (weird)_sheet_85: 7285338013134448375
-      clip (weird)_sheet_86: -4990658298575436694
-      clip (weird)_sheet_87: -3287907167117087559
-      clip (weird)_sheet_88: -550171513391244819
-      clip (weird)_sheet_89: -828605671287790702
       clip (weird)_sheet_9: 3032295123334047094
-      clip (weird)_sheet_90: 2995676642467857258
-      clip (weird)_sheet_91: 8625977471131611856
-      clip (weird)_sheet_92: -2284487652957115936
-      clip (weird)_sheet_93: -309448297653605934
-      clip (weird)_sheet_94: -1300380384261078913
-      clip (weird)_sheet_95: 3402442299283308895
-      clip (weird)_sheet_96: -7349554051758023949
-      clip (weird)_sheet_97: -7380062641445412380
-      clip (weird)_sheet_98: -4120825759204821767
-      clip (weird)_sheet_99: 3397719219475365853
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

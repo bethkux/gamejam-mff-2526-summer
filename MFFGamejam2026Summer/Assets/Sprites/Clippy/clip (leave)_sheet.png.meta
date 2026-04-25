@@ -121,12 +121,12 @@ TextureImporter:
       name: clip (leave)_sheet_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 51
-        width: 154
-        height: 141
+        x: 0
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -143,12 +143,12 @@ TextureImporter:
       name: clip (leave)_sheet_1
       rect:
         serializedVersion: 2
-        x: 275
-        y: 51
-        width: 150
-        height: 107
+        x: 240
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: clip (leave)_sheet_2
       rect:
         serializedVersion: 2
-        x: 515
-        y: 50
-        width: 146
-        height: 77
+        x: 480
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -187,12 +187,12 @@ TextureImporter:
       name: clip (leave)_sheet_3
       rect:
         serializedVersion: 2
-        x: 819
-        y: 90
-        width: 14
-        height: 12
+        x: 720
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -209,12 +209,12 @@ TextureImporter:
       name: clip (leave)_sheet_4
       rect:
         serializedVersion: 2
-        x: 833
-        y: 87
-        width: 12
-        height: 18
+        x: 960
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,55 +227,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: clip (leave)_sheet_5
-      rect:
-        serializedVersion: 2
-        x: 1059
-        y: 90
-        width: 14
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f6bc08f3da5bab4d0800000000000000
-      internalID: -3117980036301272209
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: clip (leave)_sheet_6
-      rect:
-        serializedVersion: 2
-        x: 1070
-        y: 87
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63b2c04ef2772e7f0800000000000000
-      internalID: -584773954031572170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 99d1b7ac3ebf36e48aa40ac2c52ad72a
     internalID: 0
     vertices: []
     indices: 
@@ -283,15 +239,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":13.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":240.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       clip (leave)_sheet_0: 477243576286367260
       clip (leave)_sheet_1: 8170056020993969104
       clip (leave)_sheet_2: -5124753352485395501
       clip (leave)_sheet_3: 1621902177873033348
       clip (leave)_sheet_4: -4232630685185236544
-      clip (leave)_sheet_5: -3117980036301272209
-      clip (leave)_sheet_6: -584773954031572170
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

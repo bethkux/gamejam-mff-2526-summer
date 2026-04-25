@@ -234,7 +234,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 8192
+    maxTextureSize: 16384
     resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
@@ -265,12 +265,12 @@ TextureImporter:
       name: clip (think)_sheet_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 50
-        width: 154
-        height: 142
+        x: 0
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -287,12 +287,12 @@ TextureImporter:
       name: clip (think)_sheet_1
       rect:
         serializedVersion: 2
-        x: 275
-        y: 50
-        width: 154
-        height: 143
+        x: 240
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,12 +309,12 @@ TextureImporter:
       name: clip (think)_sheet_2
       rect:
         serializedVersion: 2
-        x: 515
-        y: 51
-        width: 154
-        height: 142
+        x: 480
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -331,12 +331,12 @@ TextureImporter:
       name: clip (think)_sheet_3
       rect:
         serializedVersion: 2
-        x: 755
-        y: 50
-        width: 154
-        height: 143
+        x: 720
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -353,12 +353,12 @@ TextureImporter:
       name: clip (think)_sheet_4
       rect:
         serializedVersion: 2
-        x: 995
-        y: 50
-        width: 154
-        height: 144
+        x: 960
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,12 +375,12 @@ TextureImporter:
       name: clip (think)_sheet_5
       rect:
         serializedVersion: 2
-        x: 1235
-        y: 51
-        width: 154
-        height: 146
+        x: 1200
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -397,12 +397,12 @@ TextureImporter:
       name: clip (think)_sheet_6
       rect:
         serializedVersion: 2
-        x: 1475
-        y: 51
-        width: 154
-        height: 146
+        x: 1440
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -419,12 +419,12 @@ TextureImporter:
       name: clip (think)_sheet_7
       rect:
         serializedVersion: 2
-        x: 1715
-        y: 50
-        width: 154
-        height: 143
+        x: 1680
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -441,12 +441,12 @@ TextureImporter:
       name: clip (think)_sheet_8
       rect:
         serializedVersion: 2
-        x: 1955
-        y: 50
-        width: 154
-        height: 146
+        x: 1920
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -463,12 +463,12 @@ TextureImporter:
       name: clip (think)_sheet_9
       rect:
         serializedVersion: 2
-        x: 2195
-        y: 50
-        width: 154
-        height: 146
+        x: 2160
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -485,12 +485,12 @@ TextureImporter:
       name: clip (think)_sheet_10
       rect:
         serializedVersion: 2
-        x: 2435
-        y: 50
-        width: 154
-        height: 146
+        x: 2400
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -507,12 +507,12 @@ TextureImporter:
       name: clip (think)_sheet_11
       rect:
         serializedVersion: 2
-        x: 2675
-        y: 50
-        width: 154
-        height: 146
+        x: 2640
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -529,12 +529,12 @@ TextureImporter:
       name: clip (think)_sheet_12
       rect:
         serializedVersion: 2
-        x: 2915
-        y: 51
-        width: 154
-        height: 145
+        x: 2880
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -551,12 +551,12 @@ TextureImporter:
       name: clip (think)_sheet_13
       rect:
         serializedVersion: 2
-        x: 3155
-        y: 51
-        width: 154
-        height: 144
+        x: 3120
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -573,12 +573,12 @@ TextureImporter:
       name: clip (think)_sheet_14
       rect:
         serializedVersion: 2
-        x: 3395
-        y: 51
-        width: 154
-        height: 145
+        x: 3360
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -595,12 +595,12 @@ TextureImporter:
       name: clip (think)_sheet_15
       rect:
         serializedVersion: 2
-        x: 3635
-        y: 50
-        width: 154
-        height: 146
+        x: 3600
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -617,12 +617,12 @@ TextureImporter:
       name: clip (think)_sheet_16
       rect:
         serializedVersion: 2
-        x: 3875
-        y: 50
-        width: 154
-        height: 146
+        x: 3840
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -639,12 +639,12 @@ TextureImporter:
       name: clip (think)_sheet_17
       rect:
         serializedVersion: 2
-        x: 4115
-        y: 50
-        width: 154
-        height: 145
+        x: 4080
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -661,12 +661,12 @@ TextureImporter:
       name: clip (think)_sheet_18
       rect:
         serializedVersion: 2
-        x: 4355
-        y: 50
-        width: 154
-        height: 146
+        x: 4320
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -683,12 +683,12 @@ TextureImporter:
       name: clip (think)_sheet_19
       rect:
         serializedVersion: 2
-        x: 4595
-        y: 50
-        width: 154
-        height: 146
+        x: 4560
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -705,12 +705,12 @@ TextureImporter:
       name: clip (think)_sheet_20
       rect:
         serializedVersion: 2
-        x: 4835
-        y: 51
-        width: 154
-        height: 145
+        x: 4800
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -727,12 +727,12 @@ TextureImporter:
       name: clip (think)_sheet_21
       rect:
         serializedVersion: 2
-        x: 5075
-        y: 51
-        width: 154
-        height: 145
+        x: 5040
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -749,12 +749,12 @@ TextureImporter:
       name: clip (think)_sheet_22
       rect:
         serializedVersion: 2
-        x: 5315
-        y: 51
-        width: 154
-        height: 145
+        x: 5280
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -771,12 +771,12 @@ TextureImporter:
       name: clip (think)_sheet_23
       rect:
         serializedVersion: 2
-        x: 5555
-        y: 51
-        width: 154
-        height: 145
+        x: 5520
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -793,12 +793,12 @@ TextureImporter:
       name: clip (think)_sheet_24
       rect:
         serializedVersion: 2
-        x: 5795
-        y: 50
-        width: 154
-        height: 146
+        x: 5760
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -815,12 +815,12 @@ TextureImporter:
       name: clip (think)_sheet_25
       rect:
         serializedVersion: 2
-        x: 6035
-        y: 50
-        width: 154
-        height: 146
+        x: 6000
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -837,12 +837,12 @@ TextureImporter:
       name: clip (think)_sheet_26
       rect:
         serializedVersion: 2
-        x: 6275
-        y: 50
-        width: 154
-        height: 146
+        x: 6240
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -859,12 +859,12 @@ TextureImporter:
       name: clip (think)_sheet_27
       rect:
         serializedVersion: 2
-        x: 6515
-        y: 50
-        width: 154
-        height: 146
+        x: 6480
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -881,12 +881,12 @@ TextureImporter:
       name: clip (think)_sheet_28
       rect:
         serializedVersion: 2
-        x: 6755
-        y: 50
-        width: 154
-        height: 146
+        x: 6720
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -903,12 +903,12 @@ TextureImporter:
       name: clip (think)_sheet_29
       rect:
         serializedVersion: 2
-        x: 6995
-        y: 50
-        width: 154
-        height: 146
+        x: 6960
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -925,12 +925,12 @@ TextureImporter:
       name: clip (think)_sheet_30
       rect:
         serializedVersion: 2
-        x: 7235
-        y: 50
-        width: 154
-        height: 146
+        x: 7200
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -947,12 +947,12 @@ TextureImporter:
       name: clip (think)_sheet_31
       rect:
         serializedVersion: 2
-        x: 7475
-        y: 50
-        width: 154
-        height: 146
+        x: 7440
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -969,12 +969,12 @@ TextureImporter:
       name: clip (think)_sheet_32
       rect:
         serializedVersion: 2
-        x: 7715
-        y: 50
-        width: 154
-        height: 145
+        x: 7680
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -991,12 +991,12 @@ TextureImporter:
       name: clip (think)_sheet_33
       rect:
         serializedVersion: 2
-        x: 7955
-        y: 50
-        width: 154
-        height: 146
+        x: 7920
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1013,12 +1013,12 @@ TextureImporter:
       name: clip (think)_sheet_34
       rect:
         serializedVersion: 2
-        x: 8195
-        y: 50
-        width: 154
-        height: 146
+        x: 8160
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1035,12 +1035,12 @@ TextureImporter:
       name: clip (think)_sheet_35
       rect:
         serializedVersion: 2
-        x: 8435
-        y: 51
-        width: 154
-        height: 145
+        x: 8400
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1057,12 +1057,12 @@ TextureImporter:
       name: clip (think)_sheet_36
       rect:
         serializedVersion: 2
-        x: 8675
-        y: 51
-        width: 154
-        height: 145
+        x: 8640
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1079,12 +1079,12 @@ TextureImporter:
       name: clip (think)_sheet_37
       rect:
         serializedVersion: 2
-        x: 8915
-        y: 51
-        width: 154
-        height: 145
+        x: 8880
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1101,12 +1101,12 @@ TextureImporter:
       name: clip (think)_sheet_38
       rect:
         serializedVersion: 2
-        x: 9155
-        y: 50
-        width: 154
-        height: 146
+        x: 9120
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1123,12 +1123,12 @@ TextureImporter:
       name: clip (think)_sheet_39
       rect:
         serializedVersion: 2
-        x: 9395
-        y: 51
-        width: 154
-        height: 145
+        x: 9360
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1145,12 +1145,12 @@ TextureImporter:
       name: clip (think)_sheet_40
       rect:
         serializedVersion: 2
-        x: 9635
-        y: 51
-        width: 154
-        height: 145
+        x: 9600
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1167,12 +1167,12 @@ TextureImporter:
       name: clip (think)_sheet_41
       rect:
         serializedVersion: 2
-        x: 9875
-        y: 51
-        width: 154
-        height: 145
+        x: 9840
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1189,12 +1189,12 @@ TextureImporter:
       name: clip (think)_sheet_42
       rect:
         serializedVersion: 2
-        x: 10115
-        y: 51
-        width: 154
-        height: 145
+        x: 10080
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1211,12 +1211,12 @@ TextureImporter:
       name: clip (think)_sheet_43
       rect:
         serializedVersion: 2
-        x: 10355
-        y: 51
-        width: 154
-        height: 145
+        x: 10320
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1233,12 +1233,12 @@ TextureImporter:
       name: clip (think)_sheet_44
       rect:
         serializedVersion: 2
-        x: 10595
-        y: 51
-        width: 154
-        height: 144
+        x: 10560
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1255,12 +1255,12 @@ TextureImporter:
       name: clip (think)_sheet_45
       rect:
         serializedVersion: 2
-        x: 10835
-        y: 51
-        width: 154
-        height: 145
+        x: 10800
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1277,12 +1277,12 @@ TextureImporter:
       name: clip (think)_sheet_46
       rect:
         serializedVersion: 2
-        x: 11075
-        y: 51
-        width: 154
-        height: 145
+        x: 11040
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1299,12 +1299,12 @@ TextureImporter:
       name: clip (think)_sheet_47
       rect:
         serializedVersion: 2
-        x: 11315
-        y: 50
-        width: 154
-        height: 146
+        x: 11280
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1321,12 +1321,12 @@ TextureImporter:
       name: clip (think)_sheet_48
       rect:
         serializedVersion: 2
-        x: 11555
-        y: 50
-        width: 154
-        height: 146
+        x: 11520
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1343,12 +1343,12 @@ TextureImporter:
       name: clip (think)_sheet_49
       rect:
         serializedVersion: 2
-        x: 11795
-        y: 50
-        width: 154
-        height: 146
+        x: 11760
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1365,12 +1365,12 @@ TextureImporter:
       name: clip (think)_sheet_50
       rect:
         serializedVersion: 2
-        x: 12035
-        y: 50
-        width: 154
-        height: 146
+        x: 12000
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1387,12 +1387,12 @@ TextureImporter:
       name: clip (think)_sheet_51
       rect:
         serializedVersion: 2
-        x: 12275
-        y: 50
-        width: 154
-        height: 146
+        x: 12240
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1409,12 +1409,12 @@ TextureImporter:
       name: clip (think)_sheet_52
       rect:
         serializedVersion: 2
-        x: 12515
-        y: 50
-        width: 154
-        height: 146
+        x: 12480
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1431,12 +1431,12 @@ TextureImporter:
       name: clip (think)_sheet_53
       rect:
         serializedVersion: 2
-        x: 12755
-        y: 50
-        width: 154
-        height: 144
+        x: 12720
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1453,12 +1453,12 @@ TextureImporter:
       name: clip (think)_sheet_54
       rect:
         serializedVersion: 2
-        x: 12995
-        y: 50
-        width: 154
-        height: 143
+        x: 12960
+        y: 0
+        width: 240
+        height: 240
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1475,7 +1475,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 291de3498df1c5b45a925210a210c378
     internalID: 0
     vertices: []
     indices: 
@@ -1483,7 +1483,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":55.0,"y":1.0},"gridSpriteSize":{"x":240.0,"y":240.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       clip (think)_sheet_0: -5160805740162185561
       clip (think)_sheet_1: 3347321815624999853

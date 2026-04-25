@@ -569,78 +569,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_text
-      value: 'xxmmmmmm
-
-        mmm
-
-        mm mm'
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_fontSize
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_fontColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_fontColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_fontColor.r
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_fontColor32.rgba
-      value: 4278190080
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_TextStyleHashCode
-      value: -1183493901
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1998727118876587090, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4599875516870308738, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
       propertyPath: m_Name
       value: Clippy
       objectReference: {fileID: 0}
-    - target: {fileID: 4877696343154472037, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 2.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877696343154472037, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 1.9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4877696343154472037, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5190021504409734133, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: 'm_Materials.Array.data[0]'
-      value: 
-      objectReference: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
     - target: {fileID: 5516298797084527897, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.07
@@ -680,18 +612,6 @@ PrefabInstance:
     - target: {fileID: 5516298797084527897, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7921808611653528020, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7921808611653528020, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7921808611653528020, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

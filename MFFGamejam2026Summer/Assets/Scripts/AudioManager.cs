@@ -55,8 +55,22 @@ public class SoundEffect
 
 public class AudioManager : MonoBehaviour
 {
-    // -- Singleton --------------------------------------------
-    public static AudioManager Instance { get; private set; }
+    private static AudioManager _instance;
+
+    public static AudioManager Instance
+    {
+        get
+        {
+            if (_instance == null)
+            {
+                // Create a new GameObject and attach AudioManager if none exists
+                GameObject audioManagerObject = new GameObject("AudioManager");
+                _instance = audioManagerObject.AddComponent<AudioManager>();
+                DontDestroyOnLoad(audioManagerObject);
+            }
+            return _instance;
+        }
+    }
 
     // -- Inspector Fields --------------------------------------
     [Header("Mixer (optional)")]
@@ -87,13 +101,13 @@ public class AudioManager : MonoBehaviour
 
     private void Awake()
     {
-        // Singleton setup
-        if (Instance != null && Instance != this)
+        if (_instance != null && _instance != this)
         {
             Destroy(gameObject);
             return;
         }
-        Instance = this;
+
+        _instance = this;
         DontDestroyOnLoad(gameObject);
 
         InitialiseMusicTracks();
@@ -357,20 +371,46 @@ public class AudioManager : MonoBehaviour
     // ---------------------------------------------------------
     #region Helpers
 
-    private MusicTrack FindMusic(string trackName)
-    {
-        MusicTrack track = Array.Find(music, m => m.name == trackName);
-        if (track == null)
-            Debug.LogWarning($"[AudioManager] Music track '{trackName}' not found. Check the name spelling.");
-        return track;
-    }
-
     private SoundEffect FindSFX(string soundName)
     {
+        if (sounds == null)
+        {
+            Debug.LogError("[AudioManager] Sounds array is null.");
+            return null;
+        }
+
+        if (string.IsNullOrEmpty(soundName))
+        {
+            Debug.LogError("[AudioManager] Sound name is null or empty.");
+            return null;
+        }
+
         SoundEffect sfx = Array.Find(sounds, s => s.name == soundName);
         if (sfx == null)
             Debug.LogWarning($"[AudioManager] SFX '{soundName}' not found. Check the name spelling.");
+
         return sfx;
+    }
+
+    private MusicTrack FindMusic(string trackName)
+    {
+        if (music == null)
+        {
+            Debug.LogError("[AudioManager] Music array is null.");
+            return null;
+        }
+
+        if (string.IsNullOrEmpty(trackName))
+        {
+            Debug.LogError("[AudioManager] Track name is null or empty.");
+            return null;
+        }
+
+        MusicTrack track = Array.Find(music, m => m.name == trackName);
+        if (track == null)
+            Debug.LogWarning($"[AudioManager] Music track '{trackName}' not found. Check the name spelling.");
+
+        return track;
     }
 
     #endregion

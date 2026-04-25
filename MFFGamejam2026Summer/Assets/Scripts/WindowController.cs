@@ -14,11 +14,21 @@ public class WindowController : MonoBehaviour
     [SerializeField] RectTransform clientArea;
     [SerializeField] Button closeButton;
     [SerializeField] bool isEvading = false;
-
+    bool _isClosable = true;
+    
     WindowState _state = WindowState.Idle;
     WindowCloseEvader _closeEvader;
 
     public string WindowName { get; private set; }
+    public bool IsClosable
+    {
+        get => _isClosable;
+        set
+        {
+            _isClosable = value;
+            closeButton.gameObject.SetActive(value);
+        }
+    }
     public event System.Action<WindowController> OnWindowClosed;
 
     public void SetEvading(bool evade)
@@ -56,6 +66,7 @@ public class WindowController : MonoBehaviour
 
     public void Close()
     {
+        if(!_isClosable)  return;
         OnWindowClosed?.Invoke(this);
         Destroy(gameObject);
     }

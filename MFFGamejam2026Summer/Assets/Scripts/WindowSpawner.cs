@@ -32,7 +32,7 @@ public class WindowManager : MonoBehaviour
             Instance = null;
     }
 
-    public WindowController SpawnWindow(string windowName, GameObject contentPrefab)
+    public WindowController SpawnWindow(string windowName, GameObject contentPrefab, bool evade = false)
     {
         if (windowPrefab == null || canvas == null)
         {
@@ -45,6 +45,8 @@ public class WindowManager : MonoBehaviour
 
         _openWindows.Add(window);
         window.OnWindowClosed += HandleWindowClosed;
+        
+        window.SetEvading(evade);
 
         return window;
     }

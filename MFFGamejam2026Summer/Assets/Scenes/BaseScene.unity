@@ -668,8 +668,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3445896bbe18d544851025340c2f8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  contentPrefab: {fileID: 2097773374565476595, guid: 5073f594a61aec145981dfb12b9ff1b8, type: 3}
-  windowName: MyTest
+  contentPrefabs:
+  - {fileID: 2097773374565476595, guid: 5073f594a61aec145981dfb12b9ff1b8, type: 3}
+  - {fileID: 5694067452582980392, guid: 2e34301d27a317848aed47f7e960a96d, type: 3}
+  - {fileID: 2097773374565476595, guid: 324045d21c4e5b141b35d08e95f84f0f, type: 3}
+  - {fileID: 2451607497390987606, guid: 2c9b9814c94d80247b31e948b9ea209d, type: 3}
+  windowNames:
+  - DeepFriedAliens
+  - Sad Boi
+  - Iam not Kidding
+  - HiHi
 --- !u!1 &571984370
 GameObject:
   m_ObjectHideFlags: 0

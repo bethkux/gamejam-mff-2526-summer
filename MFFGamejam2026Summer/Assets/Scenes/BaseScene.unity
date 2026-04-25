@@ -617,8 +617,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3445896bbe18d544851025340c2f8fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  windowName: My Documents
   contentPrefab: {fileID: 3962210135822457797, guid: 9288f158b4b0514468e9b13dc7cf7783, type: 3}
+  windowName: MyTest
 --- !u!1 &571984370
 GameObject:
   m_ObjectHideFlags: 0

@@ -27,7 +27,7 @@ public class Menu : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #else
-    Application.Quit();
+        Application.Quit();
 #endif
     }
 
@@ -57,6 +57,6 @@ public class Menu : MonoBehaviour
 
     public void PlayGame()
     {
-        LoadScene("GameScene");
+        LoadScene("BaseScene");
     }
 }

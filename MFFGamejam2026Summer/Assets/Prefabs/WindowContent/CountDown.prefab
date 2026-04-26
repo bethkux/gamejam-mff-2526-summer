@@ -70,7 +70,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: New Text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7ecaa4914ac2d5a44bc93c2e78ebf267, type: 2}
+  m_fontAsset: {fileID: 0}
   m_sharedMaterial: {fileID: -4966713190888999457, guid: 7ecaa4914ac2d5a44bc93c2e78ebf267, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CountdownController
   closableText: {fileID: 767400244130853803}
+  startCountdown: 3
 --- !u!114 &945946751531868491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,8 +169,8 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: -1
   m_MinHeight: -1
-  m_PreferredWidth: 750
-  m_PreferredHeight: 600
+  m_PreferredWidth: 650
+  m_PreferredHeight: 500
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
   m_LayoutPriority: 1

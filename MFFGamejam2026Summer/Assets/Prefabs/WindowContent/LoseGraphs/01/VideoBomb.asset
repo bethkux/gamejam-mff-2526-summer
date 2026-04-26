@@ -10,18 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eb0965e5b448ba351ec6f41d73fac, type: 3}
-  m_Name: DeepFriedAliens_L
+  m_Name: VideoBomb
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
-  title: 
-  contentPrefab: {fileID: 2097773374565476595, guid: 5073f594a61aec145981dfb12b9ff1b8, type: 3}
+  title: Ooooopsieee
+  contentPrefab: {fileID: 6247779384770788682, guid: e95c45e478be7044aa0cff47d2b0f51d, type: 3}
   applyEvade: 0
-  isClosable: 1
-  closeSpawnMode: 1
+  isClosable: 0
+  closeSpawnMode: 0
   randomSpawnCount: 1
   nextWindows:
-  - nextNode: {fileID: 11400000, guid: b9991b96a91dde94bb358e2350e8ca9c, type: 2}
-    weight: 0.33
-  - nextNode: {fileID: 11400000, guid: 69047e898f13b5b489075b1803a167a5, type: 2}
-    weight: 0.33
   - nextNode: {fileID: 11400000, guid: 7ddb7a1baa620b740a0301d5611875e7, type: 2}
-    weight: 0.33
+    weight: 0
+  - nextNode: {fileID: 11400000, guid: b9991b96a91dde94bb358e2350e8ca9c, type: 2}
+    weight: 0
+  - nextNode: {fileID: 11400000, guid: b9991b96a91dde94bb358e2350e8ca9c, type: 2}
+    weight: 0

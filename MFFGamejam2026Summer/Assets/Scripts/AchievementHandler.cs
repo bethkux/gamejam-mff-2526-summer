@@ -105,6 +105,10 @@ public class AchievementHandler : MonoBehaviour
                     TryComplete(20);
                 if (GetCounter("clicks") >= 2)
                     TryComplete(67);
+                if (GetCounter("clicks") >= 50)
+                    TryComplete(50);
+                if (GetCounter("clicks") >= 100)
+                    TryComplete(100);
                 break;
         }
     }

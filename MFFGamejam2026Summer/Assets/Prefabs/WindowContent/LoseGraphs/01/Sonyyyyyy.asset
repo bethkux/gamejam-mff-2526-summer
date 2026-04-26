@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
   title: He not lying
   contentPrefab: {fileID: 2097773374565476595, guid: f230080067df35d40b58a6512f6298af, type: 3}
-  applyEvade: 1
+  applyEvade: 0
   isClosable: 1
   closeSpawnMode: 0
   randomSpawnCount: 1

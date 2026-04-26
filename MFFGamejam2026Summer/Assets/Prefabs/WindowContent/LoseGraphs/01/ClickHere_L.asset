@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
   title: Will you?
   contentPrefab: {fileID: 2097773374565476595, guid: 7e820d1ec311d6f46a33433527f9ea2e, type: 3}
-  applyEvade: 1
+  applyEvade: 0
   isClosable: 1
   closeSpawnMode: 0
   randomSpawnCount: 1

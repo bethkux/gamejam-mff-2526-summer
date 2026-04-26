@@ -4,6 +4,7 @@ public class AudioAnnoyance : MonoBehaviour
 {
     public string SFX = "Error";
     public float delayForNext = 0.5f;
+    public AchievementHandler AchievementHandler;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

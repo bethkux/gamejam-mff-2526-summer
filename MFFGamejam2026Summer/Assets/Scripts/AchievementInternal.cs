@@ -12,57 +12,51 @@ public class AchievementInternal : MonoBehaviour
     [SerializeField] private float delayBeforeDie = 5f;
     [SerializeField] private float slideDownBy = 110f;
 
+    public float SlideDownBy => slideDownBy;
+    public float SlideDuration => slideDuration;
+
     private RectTransform rect;
+    private Vector2 targetPos;
+    private Coroutine slideCoroutine; 
 
     private void Start()
     {
         if (toggle == null)
             toggle = GetComponentInChildren<Toggle>();
-
         rect = GetComponent<RectTransform>();
+        targetPos = rect.anchoredPosition;
     }
 
     public void Complete()
     {
         if (toggle != null)
             toggle.isOn = true;
-
         StartCoroutine(DieRoutine());
     }
 
     private IEnumerator DieRoutine()
     {
         yield return new WaitForSeconds(delayBeforeDie);
+        AchievementHandler.Instance.OnAchievementDying(this);
         yield return StartCoroutine(SlideOutAndFade());
-        NotifySiblingsAbove();
-
         Destroy(gameObject);
-    }
-
-    private void NotifySiblingsAbove()
-    {
-        int myIndex = transform.GetSiblingIndex();
-
-        for (int i = 0; i < myIndex; i++)
-        {
-            Transform sibling = transform.parent.GetChild(i);
-            AchievementInternal a = sibling.GetComponent<AchievementInternal>();
-            if (a != null)
-                a.SlideDown(slideDownBy, slideDuration);
-        }
     }
 
     public void SlideDown(float distance, float duration)
     {
-        StartCoroutine(SlideDownRoutine(distance, duration));
+        targetPos -= new Vector2(0f, distance);
+
+        if (slideCoroutine != null)
+            StopCoroutine(slideCoroutine);
+
+        slideCoroutine = StartCoroutine(SlideDownRoutine(targetPos, duration));
     }
 
-    private IEnumerator SlideDownRoutine(float distance, float duration)
+    private IEnumerator SlideDownRoutine(Vector2 endPos, float duration)
     {
         Vector2 startPos = rect.anchoredPosition;
-        Vector2 endPos = startPos - new Vector2(0f, distance);
-
         float elapsed = 0f;
+
         while (elapsed < duration)
         {
             elapsed += Time.deltaTime;
@@ -71,6 +65,7 @@ public class AchievementInternal : MonoBehaviour
         }
 
         rect.anchoredPosition = endPos;
+        slideCoroutine = null;
     }
 
     private IEnumerator SlideOutAndFade()
@@ -80,9 +75,9 @@ public class AchievementInternal : MonoBehaviour
             cg = gameObject.AddComponent<CanvasGroup>();
 
         Vector2 startPos = rect.anchoredPosition;
-        Vector2 endPos = startPos - new Vector2(300f, 0f);
-
+        Vector2 endPos = startPos + new Vector2(300f, 0f);
         float elapsed = 0f;
+
         while (elapsed < slideDuration)
         {
             elapsed += Time.deltaTime;

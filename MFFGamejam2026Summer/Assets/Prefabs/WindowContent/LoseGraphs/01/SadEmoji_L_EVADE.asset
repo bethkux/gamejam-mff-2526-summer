@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eb0965e5b448ba351ec6f41d73fac, type: 3}
-  m_Name: SadEmoji_L
+  m_Name: SadEmoji_L_EVADE
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
-  title: WIIIIII
+  title: WAAAHAAAA
   contentPrefab: {fileID: 5694067452582980392, guid: 2e34301d27a317848aed47f7e960a96d, type: 3}
-  applyEvade: 0
+  applyEvade: 1
   isClosable: 1
   closeSpawnMode: 1
   randomSpawnCount: 1
   nextWindows:
   - nextNode: {fileID: 11400000, guid: 7ddb7a1baa620b740a0301d5611875e7, type: 2}
     weight: 0.7
-  - nextNode: {fileID: 11400000, guid: dd13a764de31dfb45a5923b6b9d900bd, type: 2}
+  - nextNode: {fileID: 11400000, guid: 69047e898f13b5b489075b1803a167a5, type: 2}
     weight: 0.3

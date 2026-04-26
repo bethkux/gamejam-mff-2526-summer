@@ -25,3 +25,5 @@ MonoBehaviour:
     weight: 0
   - nextNode: {fileID: 11400000, guid: ac6aca5881a1271468eecbba98b88907, type: 2}
     weight: 0
+  - nextNode: {fileID: 11400000, guid: cdc0732bf165d114494da791755c472a, type: 2}
+    weight: 0

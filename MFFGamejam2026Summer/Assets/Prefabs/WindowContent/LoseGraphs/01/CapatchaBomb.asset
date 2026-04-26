@@ -13,15 +13,13 @@ MonoBehaviour:
   m_Name: CapatchaBomb
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
   title: Ooooopsieee
-  contentPrefab: {fileID: 6247779384770788682, guid: e95c45e478be7044aa0cff47d2b0f51d, type: 3}
+  contentPrefab: {fileID: 6833692984098085570, guid: 54e9cff827d88d04da2254551df7fe5f, type: 3}
   applyEvade: 0
   isClosable: 0
   closeSpawnMode: 0
   randomSpawnCount: 1
   nextWindows:
-  - nextNode: {fileID: 11400000, guid: 7ddb7a1baa620b740a0301d5611875e7, type: 2}
+  - nextNode: {fileID: 11400000, guid: 69047e898f13b5b489075b1803a167a5, type: 2}
     weight: 0
-  - nextNode: {fileID: 11400000, guid: b9991b96a91dde94bb358e2350e8ca9c, type: 2}
-    weight: 0
-  - nextNode: {fileID: 11400000, guid: b9991b96a91dde94bb358e2350e8ca9c, type: 2}
+  - nextNode: {fileID: 11400000, guid: 34798f200c60e3b45a0a1458e1290b05, type: 2}
     weight: 0

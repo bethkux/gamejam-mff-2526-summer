@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
   title: I swear i will!
   contentPrefab: {fileID: 2097773374565476595, guid: 324045d21c4e5b141b35d08e95f84f0f, type: 3}
-  applyEvade: 1
+  applyEvade: 0
   isClosable: 1
   closeSpawnMode: 1
   randomSpawnCount: 1

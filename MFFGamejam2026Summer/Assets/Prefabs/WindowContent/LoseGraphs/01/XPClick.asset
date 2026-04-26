@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eb0965e5b448ba351ec6f41d73fac, type: 3}
-  m_Name: 08_IGotSony
+  m_Name: XPClick
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
-  title: He not lying
-  contentPrefab: {fileID: 2097773374565476595, guid: f230080067df35d40b58a6512f6298af, type: 3}
-  applyEvade: 1
+  title: YEYE
+  contentPrefab: {fileID: 2097773374565476595, guid: 3bf40449aa3fb6c4bb2f159d97e28ab8, type: 3}
+  applyEvade: 0
   isClosable: 1
   closeSpawnMode: 0
   randomSpawnCount: 1
   nextWindows:
-  - nextNode: {fileID: 11400000, guid: eb52a84e0a69b674d96044339cd83320, type: 2}
+  - nextNode: {fileID: 11400000, guid: 34798f200c60e3b45a0a1458e1290b05, type: 2}
     weight: 0

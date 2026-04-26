@@ -75,7 +75,7 @@ public class AchievementInternal : MonoBehaviour
             cg = gameObject.AddComponent<CanvasGroup>();
 
         Vector2 startPos = rect.anchoredPosition;
-        Vector2 endPos = startPos + new Vector2(300f, 0f);
+        Vector2 endPos = startPos - new Vector2(300f, 0f);
         float elapsed = 0f;
 
         while (elapsed < slideDuration)

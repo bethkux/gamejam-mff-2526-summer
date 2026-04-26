@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEngine.Rendering.DebugUI;
 
 public class AchievementHandler : MonoBehaviour
 {
@@ -17,6 +16,12 @@ public class AchievementHandler : MonoBehaviour
     private Dictionary<AchievementInternal, float> pendingSlide = new();
     private bool flushScheduled = false;
 
+    public int completedCount = 0;
+    public int allAchCount = 0;
+
+    public GameObject windowToBeSpawned;
+
+
     private void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -30,6 +35,8 @@ public class AchievementHandler : MonoBehaviour
             else
                 lookup[a.ID] = a;
         }
+
+        allAchCount = achievements.Count;
     }
 
     private void Start()
@@ -39,7 +46,16 @@ public class AchievementHandler : MonoBehaviour
             cg = gameObject.AddComponent<CanvasGroup>();
         cg.alpha = 0;
         StartCoroutine(SlideInRoutine());
+
+        StartCoroutine(SpawnOneWindow());
     }
+
+    private IEnumerator SpawnOneWindow()
+    {
+        yield return new WaitForSeconds(Random.Range(15f, 23f));
+        windowToBeSpawned.gameObject.SetActive(true);
+    }
+
 
     private IEnumerator SlideInRoutine()
     {
@@ -101,6 +117,7 @@ public class AchievementHandler : MonoBehaviour
             Debug.LogWarning("ID not found: " + id);
             return;
         }
+        completedCount++;
         completed.Add(id);
         achievements.Remove(achievement);
         lookup.Remove(id);

@@ -833,6 +833,7 @@ GameObject:
   - component: {fileID: 391460265}
   - component: {fileID: 391460264}
   - component: {fileID: 391460267}
+  - component: {fileID: 391460268}
   m_Layer: 0
   m_Name: Start
   m_TagString: Untagged
@@ -904,7 +905,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 391460265}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 391460268}
+        m_TargetAssemblyTypeName: PlaySoundLOL, Assembly-CSharp
+        m_MethodName: PlaySound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &391460265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -950,7 +963,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391460262}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f3445896bbe18d544851025340c2f8fe, type: 3}
   m_Name: 
@@ -965,6 +978,34 @@ MonoBehaviour:
   - Sad Boi
   - Iam not Kidding
   - HiHi
+--- !u!114 &391460268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 391460262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b01764b10691e4e9f434a52f0656df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  PlaySoundEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4364659663154306056}
+        m_TargetAssemblyTypeName: AchievementHandler, Assembly-CSharp
+        m_MethodName: ClickDetected
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ah: {fileID: 4364659663154306056}
 --- !u!1 &443909385
 GameObject:
   m_ObjectHideFlags: 0
@@ -2085,7 +2126,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4520381338147220366, guid: 4ce1c682384e8024485800da415cd517, type: 3}
       propertyPath: m_text
-      value: 'Click 50 times!
+      value: 'Click START 50 times!
 
 '
       objectReference: {fileID: 0}
@@ -3157,7 +3198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4520381338147220366, guid: 4ce1c682384e8024485800da415cd517, type: 3}
       propertyPath: m_text
-      value: 'Click!
+      value: 'Click START!
 
 '
       objectReference: {fileID: 0}
@@ -3401,7 +3442,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4520381338147220366, guid: 4ce1c682384e8024485800da415cd517, type: 3}
       propertyPath: m_text
-      value: 'Click 20 times!
+      value: 'Click START 20 times!
 
 '
       objectReference: {fileID: 0}

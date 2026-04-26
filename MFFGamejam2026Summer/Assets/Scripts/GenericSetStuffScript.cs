@@ -1,5 +1,7 @@
 using System.Collections;
+using Unity.VectorGraphics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GenericSetStuffScript : MonoBehaviour
 {
@@ -41,11 +43,7 @@ public class GenericSetStuffScript : MonoBehaviour
         }
         yield return new WaitForSeconds(delay);
 
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#else
-        Application.Quit();
-#endif
+        SceneManager.LoadScene("MainMenu");
 
     }
 }

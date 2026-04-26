@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -99,9 +98,15 @@ public class AchievementHandler : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            Increment("clicks");
-            CheckConditions("click");
+
         }
+    }
+
+    public void ClickDetected()
+    {
+        Debug.Log("Click");
+        Increment("clicks");
+        CheckConditions("click");
     }
 
     private void CheckConditions(string trigger)

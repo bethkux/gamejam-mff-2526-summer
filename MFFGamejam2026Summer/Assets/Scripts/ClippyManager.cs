@@ -36,7 +36,7 @@ public class ClippyManager : MonoBehaviour
 
     private readonly string[] onDone = new[]
 {
-        "CONGRATULATIONS!!! YOU DID IT!"
+        "CONGRATS!!! YOU DID IT!"
     };
 
     private void Awake()

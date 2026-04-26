@@ -861,7 +861,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443909385}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 937f4fc79a45422b9a47a6a2d49e0a41, type: 3}
   m_Name: 
@@ -886,6 +886,30 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: WindowSpawner, Assembly-CSharp
         m_MethodName: SpawnWindow
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 798902582}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 443909385}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1101,7 +1125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1630262480302146589, guid: 9e7f162312e0094468310480b039c961, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -660
+      value: -1250
       objectReference: {fileID: 0}
     - target: {fileID: 1630262480302146589, guid: 9e7f162312e0094468310480b039c961, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1127,11 +1151,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: AchievementContainer
       objectReference: {fileID: 0}
+    - target: {fileID: 4862858602178602364, guid: 9e7f162312e0094468310480b039c961, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e7f162312e0094468310480b039c961, type: 3}
+--- !u!1 &798902582 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4862858602178602364, guid: 9e7f162312e0094468310480b039c961, type: 3}
+  m_PrefabInstance: {fileID: 798902581}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &843508458
 GameObject:
   m_ObjectHideFlags: 0
@@ -1911,6 +1944,10 @@ PrefabInstance:
     - target: {fileID: 4599875516870308738, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
       propertyPath: m_Name
       value: Clippy
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599875516870308738, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5516298797084527897, guid: 16c648647389c4bf8804c1ffc8a21130, type: 3}
       propertyPath: m_LocalPosition.x

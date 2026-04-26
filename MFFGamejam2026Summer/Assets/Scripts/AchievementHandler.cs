@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using static UnityEngine.Rendering.DebugUI;
 
 public class AchievementHandler : MonoBehaviour
 {
@@ -31,6 +32,45 @@ public class AchievementHandler : MonoBehaviour
         }
     }
 
+    private void Start()
+    {
+        CanvasGroup cg = GetComponent<CanvasGroup>();
+        if (cg == null)
+            cg = gameObject.AddComponent<CanvasGroup>();
+        cg.alpha = 0;
+        StartCoroutine(SlideInRoutine());
+    }
+
+    private IEnumerator SlideInRoutine()
+    {
+        yield return new WaitForSeconds(0.5f);
+
+        RectTransform panel = GetComponent<RectTransform>();
+        CanvasGroup cg = GetComponent<CanvasGroup>();
+        if (cg == null)
+            cg = gameObject.AddComponent<CanvasGroup>();
+
+        Vector2 startPos = panel.anchoredPosition;
+        Vector2 endPos = startPos + new Vector2(600, 0f);
+        float duration = 0.6f;
+        float elapsed = 0f;
+
+        panel.anchoredPosition = startPos;
+        cg.alpha = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float t = elapsed / duration;
+            panel.anchoredPosition = Vector2.Lerp(startPos, endPos, t);
+            cg.alpha = Mathf.Lerp(0f, 1f, t);
+            yield return null;
+        }
+
+        panel.anchoredPosition = endPos;
+        cg.alpha = 1f;
+    }
+
     private void Update()
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
@@ -47,7 +87,7 @@ public class AchievementHandler : MonoBehaviour
             case "click":
                 if (GetCounter("clicks") >= 20)
                     TryComplete(20);
-                if (GetCounter("clicks") == 1)
+                if (GetCounter("clicks") >= 2)
                     TryComplete(67);
                 break;
         }

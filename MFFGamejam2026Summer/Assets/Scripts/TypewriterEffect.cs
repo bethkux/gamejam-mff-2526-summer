@@ -34,14 +34,15 @@ public class TypewriterEffect : MonoBehaviour
     }
 
     /// <summary>Play typewriter on the text currently set in the component.</summary>
-    public void Play(TMP_Text text)
+    public void Play(TMP_Text text, float speed = 20)
     {
-        Play(text);
+        Play(text, speed);
     }
 
     /// <summary>Set new text and play typewriter from the beginning.</summary>
-    public void Play(string text)
+    public void Play(string text, float speed = 20)
     {
+        charsPerSecond = speed;
         Stop();
         _fullText = text;
         _coroutine = StartCoroutine(TypeRoutine());

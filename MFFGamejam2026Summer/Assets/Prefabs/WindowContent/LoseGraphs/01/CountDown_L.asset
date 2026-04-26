@@ -21,3 +21,5 @@ MonoBehaviour:
   nextWindows:
   - nextNode: {fileID: 11400000, guid: 69047e898f13b5b489075b1803a167a5, type: 2}
     weight: 0
+  - nextNode: {fileID: 11400000, guid: cdd2e6ba632fca444b63a75111dcb2cd, type: 2}
+    weight: 0

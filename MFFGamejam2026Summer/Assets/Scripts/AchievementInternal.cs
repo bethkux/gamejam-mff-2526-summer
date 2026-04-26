@@ -4,33 +4,30 @@ using UnityEngine.UI;
 
 public class AchievementInternal : MonoBehaviour
 {
-    Toggle toggle;
+    [Header("Data")]
     public int ID;
-    float timeToDie = 0;
-    bool die = false;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public string Title;
+
+    [Header("References")]
+    [SerializeField] private Toggle toggle;
+
+    private void Start()
     {
-        toggle = GetComponentInChildren<Toggle>();
-        
+        if (toggle == null)
+            toggle = GetComponentInChildren<Toggle>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Complete()
     {
-        
-    }
-    
+        if (toggle != null)
+            toggle.isOn = true;
 
-    private IEnumerator Kill()
+        StartCoroutine(Kill(5f));
+    }
+
+    private IEnumerator Kill(float delay)
     {
-        float delay = 5f;
         yield return new WaitForSeconds(delay);
         Destroy(gameObject);
-    }
-    public void Handle()
-    {
-        toggle.isOn = true;
-        StartCoroutine(Kill());
     }
 }

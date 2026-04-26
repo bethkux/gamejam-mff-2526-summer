@@ -363,8 +363,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ed89b8b5e9ba4d4db8fd25754530ed4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AchievementHandler
-  Achievments:
+  achievements:
   - {fileID: 1911027325}
+  - {fileID: 1642723935}
 --- !u!1001 &1642723933
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -491,6 +492,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7346290484213518445, guid: 4ce1c682384e8024485800da415cd517, type: 3}
   m_PrefabInstance: {fileID: 1642723933}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1642723935 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1236694865013845817, guid: 4ce1c682384e8024485800da415cd517, type: 3}
+  m_PrefabInstance: {fileID: 1642723933}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27cde08bdf68d7a4a931f573a5712985, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!224 &1911027324 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7346290484213518445, guid: 4ce1c682384e8024485800da415cd517, type: 3}

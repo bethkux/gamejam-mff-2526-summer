@@ -1,81 +1,81 @@
-using NUnit.Framework;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.EventSystems;
-using UnityEngine.UIElements;
-
-using UnityEngine.InputSystem;              // <-error
-using UnityEngine.InputSystem.Controls;
+using UnityEngine.InputSystem;
 
 public class AchievementHandler : MonoBehaviour
 {
+    [SerializeField] private List<AchievementInternal> achievements = new();
 
-    public List<AchievementInternal> Achievments = new();
-    int numOfClicks = 0;
-    bool tmp = true;
-    bool tmp2 = true;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    private Dictionary<int, AchievementInternal> lookup = new();
+    private Dictionary<string, int> counters = new();
+    private HashSet<int> completed = new();
+
+
+    private void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-        if (Mouse.current.leftButton.wasPressedThisFrame)
+        // setup lookup dic for notifs
+        lookup.Clear();
+        foreach (var a in achievements)
         {
-            Debug.Log("Clicked!");
-            if (tmp2)
-            {
-                HandleAchievement(67);
-                tmp2 = false;
-            }
-
-            numOfClicks++;
-            Debug.Log(numOfClicks);
-        }
-        if (numOfClicks >= 5 && tmp)
-        {
-            //Debug.Log("numofclicksbig");
-            HandleAchievement(20);
-            tmp = false;
+            if (lookup.ContainsKey(a.ID))
+                Debug.Log("Duplicate: " + a.ID);
+            else
+                lookup[a.ID] = a;
         }
     }
-    public void HandleAchievement(int achID = 0)
+
+    private void Update()
     {
-        Debug.Log("HandlerCalled");
-        AchievementInternal toRemove = null ;
-        
-        foreach (var achiev in Achievments)
+        if (Mouse.current.leftButton.wasPressedThisFrame)   // check if pressed
         {
-            //if achiev.id == achID
-            // achievements.check
-            // delay
-            // achiev.delete
-            //AchievementInternal achievementInternal = achiev.GetComponent<AchievementInternal>();
-            Debug.Log(achiev.ID);
-            switch (achiev.ID)
-            {
-                case 20:
-                    Debug.Log("removing 20 clucks");
-                    toRemove = achiev;
-                    achiev.Handle();
-                    break;
-                case 67:
-                    toRemove = achiev;
-                    achiev.Handle();
-                    break;
-                default:
-                    Debug.Log("Tried to handle achievement number " +  achID + " but it does not exist");
-                    break;
-            }
-            
+            Increment("clicks");
+            CheckConditions("click");
         }
-        Achievments.Remove(toRemove);
     }
 
-    
 
+    private void CheckConditions(string trigger)
+    {
+        switch (trigger)
+        {
+            case "click":
+                if (GetCounter("clicks") >= 20)
+                    TryComplete(20);
+
+                if (GetCounter("clicks") == 1)
+                    TryComplete(67);
+                break;
+        }
+    }
+
+
+    public void TryComplete(int id)
+    {
+        if (completed.Contains(id)) return; // we dont need to do anything, it was completed
+
+        if (!lookup.TryGetValue(id, out var achievement))   // if the value is not known
+        {
+            Debug.Log("ID not found:" + id);
+            return;
+        }
+
+        completed.Add(id);
+        achievements.Remove(achievement);
+        achievement.Complete();
+
+        Debug.Log($"Completed: {achievement.Title} (ID {id})");
+    }
+
+    public void Increment(string counter)   
+    {
+        if (!counters.ContainsKey(counter))
+            counters[counter] = 0;
+        counters[counter]++;
+    }
+    public int GetCounter(string counter)
+    {
+        if (!counters.ContainsKey(counter))
+            return 0;
+        return counters[counter];
+    }
 }

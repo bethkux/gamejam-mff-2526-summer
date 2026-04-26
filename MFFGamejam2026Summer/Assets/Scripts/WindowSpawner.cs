@@ -34,6 +34,15 @@ public class WindowManager : MonoBehaviour
     [SerializeField] private List<WindowController> _openWindows = new List<WindowController>();
     private readonly Dictionary<WindowController, WindowFlowNodeAsset> _windowNodeMap = new Dictionary<WindowController, WindowFlowNodeAsset>();
 
+
+    public int closedWindowsCount = 0;
+    public UnityEvent closedWindows1;
+    public UnityEvent closedWindows2;
+
+    private bool completedA = false;
+    private bool completedB = false;
+
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -139,6 +148,20 @@ public class WindowManager : MonoBehaviour
     {
         window.OnWindowClosed -= HandleWindowClosed;
         _openWindows.Remove(window);
+        closedWindowsCount++;
+        Debug.Log(closedWindowsCount);
+
+        if (!completedA && closedWindowsCount >= 10)
+        {
+            closedWindows1.Invoke();
+            completedA = true;
+        }
+
+        if (!completedB && closedWindowsCount >= 30)
+        {
+            closedWindows2.Invoke();
+            completedB = true;
+        }
 
         _windowNodeMap.TryGetValue(window, out var closedNode);
         _windowNodeMap.Remove(window);

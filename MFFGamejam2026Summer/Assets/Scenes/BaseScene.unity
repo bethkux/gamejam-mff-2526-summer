@@ -260,6 +260,9 @@ MonoBehaviour:
   flowNodeList:
   - {fileID: 11400000, guid: 34798f200c60e3b45a0a1458e1290b05, type: 2}
   timeUntilNewGraphStarts: 20
+  freezeMouse:
+    m_PersistentCalls:
+      m_Calls: []
   _openWindows: []
 --- !u!4 &188585080
 Transform:
@@ -478,7 +481,7 @@ MonoBehaviour:
   fakeCursorRect: {fileID: 843508459}
   fakeCursorImage: {fileID: 843508462}
   uiCanvas: {fileID: 255764004}
-  windowsForMaxLag: 20
+  windowsForMaxLag: 18
   maxUnfreezeTime: 2
   minUnfreezeTime: 0.1
   minFreezeTime: 0.08

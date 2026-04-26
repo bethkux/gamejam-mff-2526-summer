@@ -1,5 +1,8 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
@@ -20,6 +23,8 @@ public class WindowManager : MonoBehaviour
     [SerializeField] private float timeUntilNewGraphStarts = 45.0f;
     private float _initialTimeUntilNewGraphStarts;
     private int _graphIndex = 0;
+
+    public UnityEvent freezeMouse;
     
     public RectTransform CanvasRect => canvas;
     
@@ -57,6 +62,39 @@ public class WindowManager : MonoBehaviour
             SpawnWindowFromNode(flowNodeList[_graphIndex]);
             _graphIndex = (_graphIndex + 1) % flowNodeList.Count;
         }
+
+        if (OpenWindows.Count > 20)
+        {
+            freezeMouse.Invoke();
+            GameOver();
+        }
+    }
+
+    private IEnumerator LoadSceneWithSound(string sceneName)
+    {
+        AudioSource source = AudioManager.Instance.PlaySFX("Shutdown");
+
+        float delay = 1.5f;
+
+        if (source != null && source.clip != null)
+        {
+            // account for pitch affecting duration
+            delay = source.clip.length / Mathf.Abs(source.pitch);
+        }
+
+        yield return new WaitForSeconds(delay);
+
+        SceneManager.LoadScene(sceneName);
+    }
+
+    public void LoadScene(string sceneName)
+    {
+        StartCoroutine(LoadSceneWithSound(sceneName));
+    }
+
+    public void GameOver()
+    {
+        LoadScene("CreditsScene");
     }
 
     public WindowController SpawnWindow(string windowName, GameObject contentPrefab, bool evade = false)

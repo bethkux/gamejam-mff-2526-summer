@@ -134,4 +134,10 @@ public class CursorManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
         if (fakeCursorImage != null)
             fakeCursorImage.texture = texture;
     }
+
+    public void FreezeForever()
+    {
+        _isFrozen = true;
+        _freezeTimer = float.MaxValue;
+    }
 }

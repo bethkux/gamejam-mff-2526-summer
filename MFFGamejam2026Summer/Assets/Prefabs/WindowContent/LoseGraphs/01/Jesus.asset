@@ -10,14 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eb0965e5b448ba351ec6f41d73fac, type: 3}
-  m_Name: XPClick
+  m_Name: Jesus
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
-  title: YEYE
-  contentPrefab: {fileID: 2097773374565476595, guid: 3bf40449aa3fb6c4bb2f159d97e28ab8, type: 3}
+  title: Ave ave aveeee maria
+  contentPrefab: {fileID: 2097773374565476595, guid: 8903616f56b05ad438ca8254f4e31d37, type: 3}
   applyEvade: 0
   isClosable: 1
   closeSpawnMode: 0
   randomSpawnCount: 1
   nextWindows:
-  - nextNode: {fileID: 11400000, guid: 91fb4595fadc9cf41a2552ca272629db, type: 2}
+  - nextNode: {fileID: 11400000, guid: 34798f200c60e3b45a0a1458e1290b05, type: 2}
     weight: 0

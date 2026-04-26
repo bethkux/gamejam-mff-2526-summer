@@ -63,7 +63,7 @@ public class ClippyManager : MonoBehaviour
 
     public void OnAchievementsAppeared()
     {
-        idle();
+        think();
         speak(Pick(onAchievementsAppear));
     }
 
@@ -84,7 +84,7 @@ public class ClippyManager : MonoBehaviour
 
     public void OnDone()
     {
-        idle();
+        penguin();
         speak(onDone[0]);
     }
 

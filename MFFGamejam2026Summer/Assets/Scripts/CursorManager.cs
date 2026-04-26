@@ -22,7 +22,7 @@ public class CursorManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     [Header("Lag Settings")]
     [Tooltip("Windows open at which freezes start happening")]
-    [SerializeField] private int windowsForMaxLag = 10;
+    [SerializeField] private int windowsForMaxLag = 15;
 
     [Tooltip("How long the cursor stays unfrozen between freezes (seconds). Shrinks as windows increase.")]
     [SerializeField] private float maxUnfreezeTime = 2f;   // few windows

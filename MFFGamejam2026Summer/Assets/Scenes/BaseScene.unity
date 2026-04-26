@@ -477,23 +477,32 @@ MonoBehaviour:
   fakeCursorRect: {fileID: 843508459}
   fakeCursorImage: {fileID: 843508462}
   uiCanvas: {fileID: 255764004}
-  windowsForMaxLag: 10
+  windowsForMaxLag: 40
   maxUnfreezeTime: 2
   minUnfreezeTime: 0.1
   minFreezeTime: 0.05
-  maxFreezeTime: 1.5
+  maxFreezeTime: 1
   lagCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 0
+      time: 0.24349976
+      value: -0.0018920898
       inSlope: 0
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
+    - serializedVersion: 3
+      time: 0.88164926
+      value: 0.37621212
+      inSlope: 1.4292818
+      outSlope: 1.4292818
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 1
@@ -1125,8 +1134,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Game.exe
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 56816c44ba6dccf478a06501be9cc879, type: 2}
-  m_sharedMaterial: {fileID: -5698568846885828439, guid: 56816c44ba6dccf478a06501be9cc879, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

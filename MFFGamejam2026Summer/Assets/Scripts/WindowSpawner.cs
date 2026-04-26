@@ -17,7 +17,7 @@ public class WindowManager : MonoBehaviour
     [Header("Lose State Flow")]
     [SerializeField] private List<WindowFlowNodeAsset> flowNodeList = new List<WindowFlowNodeAsset>();
 
-    [SerializeField] private float timeUntilNewGraphStarts = 20.0f;
+    [SerializeField] private float timeUntilNewGraphStarts = 45.0f;
     private float _initialTimeUntilNewGraphStarts;
     private int _graphIndex = 0;
     

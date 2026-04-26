@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
+using UnityEngine.Events;
 
 public class CoockiePageManager : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class CoockiePageManager : MonoBehaviour
     [SerializeField] private GameObject cookiePage;
     [SerializeField] private GameObject acceptPage;
     [SerializeField] private GameObject finalPage;
+
+    public UnityEvent finished;
 
     void Start()
     {
@@ -34,6 +37,7 @@ public class CoockiePageManager : MonoBehaviour
         acceptPage.SetActive(false);
         finalPage.SetActive(true);
 
+        finished.Invoke();
         Destroy(cookieWindow, 3f);
     }
 

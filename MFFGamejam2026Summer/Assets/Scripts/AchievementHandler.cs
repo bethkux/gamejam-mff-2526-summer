@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VectorGraphics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class AchievementHandler : MonoBehaviour
 {
@@ -20,6 +22,9 @@ public class AchievementHandler : MonoBehaviour
     public int allAchCount = 0;
 
     public GameObject windowToBeSpawned;
+    public GameObject windowToBeSpawned2;
+    private bool DONE = false;
+
 
     private void Awake()
     {
@@ -52,6 +57,9 @@ public class AchievementHandler : MonoBehaviour
     {
         yield return new WaitForSeconds(Random.Range(15f, 23f));
         windowToBeSpawned.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(Random.Range(3f, 10f));
+        windowToBeSpawned2.gameObject.SetActive(true);
     }
 
     private IEnumerator SlideInRoutine()
@@ -115,6 +123,7 @@ public class AchievementHandler : MonoBehaviour
 
     public void TryComplete(int id)
     {
+
         if (completed.Contains(id)) return;
         if (!lookup.TryGetValue(id, out var achievement))
         {
@@ -127,9 +136,36 @@ public class AchievementHandler : MonoBehaviour
         lookup.Remove(id);
         achievement.Complete();
         Debug.Log($"Completed: {achievement.Title} (ID {id})");
+        
+
+
+        if (completedCount >= allAchCount)
+        {
+
+            if (ClippyManager.Instance != null && !DONE)
+            {
+                DONE = true;
+                ClippyManager.Instance.OnDone();
+            }
+            WinGame();
+            return;
+        }
 
         if (ClippyManager.Instance != null)
             ClippyManager.Instance.OnAchievementCompleted(completedCount, allAchCount);
+    }
+
+    private IEnumerator LoadSceneUWU(string sceneName)
+    {
+        yield return new WaitForSeconds(5f);
+
+        SceneManager.LoadScene(sceneName);
+    }
+
+
+    public void WinGame()
+    {
+        StartCoroutine(LoadSceneUWU("WinScene"));
     }
 
     public void OnAchievementDying(AchievementInternal dying)

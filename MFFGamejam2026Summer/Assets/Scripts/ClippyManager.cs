@@ -34,6 +34,11 @@ public class ClippyManager : MonoBehaviour
         "Nearly done! Finish strong!",
     };
 
+    private readonly string[] onDone = new[]
+{
+        "CONGRATULATIONS!!! YOU DID IT!"
+    };
+
     private void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -76,6 +81,12 @@ public class ClippyManager : MonoBehaviour
         speak(Pick(onAchievementCompleted));
     }
 
+
+    public void OnDone()
+    {
+        idle();
+        speak(onDone[0]);
+    }
 
     public void idle() { gameObject.SetActive(true); animator.Play("Clippy_idle"); }
     public void leave() { gameObject.SetActive(true); animator.Play("Clippy_leave"); }

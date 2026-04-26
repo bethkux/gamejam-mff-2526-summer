@@ -5,6 +5,7 @@ using UnityEngine;
 public class CountdownController : MonoBehaviour
 {
     [SerializeField] private TMP_Text closableText;
+    [SerializeField] private int startCountdown = 3;
 
     private WindowController _windowController;
 
@@ -25,48 +26,33 @@ public class CountdownController : MonoBehaviour
 
     private IEnumerator CountdownRoutine()
     {
-        int count = 10;
-        while (count > 0)
+        int start = Mathf.Max(0, startCountdown);
+
+        // Count down from start to 1 (e.g. 3, 2, 1)
+        for (int i = start; i >= 1; i--)
         {
-            closableText.text = $"You can close this window in {count} seconds";
+            closableText.text = $"You can close this window in {i} seconds";
+            yield return new WaitForSeconds(1f);
+        }
 
-            if (count == 2)
-            {
-                yield return StartCoroutine(CountUpRoutine());
-            }
+        // Count back up to start (e.g. 2, 3)
+        for (int i = 2; i <= start; i++)
+        {
+            closableText.text = $"You can close this window in {i} seconds";
+            yield return new WaitForSeconds(1f);
+        }
 
-            count--;
+        // Count down to 0 (e.g. 2, 1, 0)
+        for (int i = Mathf.Max(0, start - 1); i >= 0; i--)
+        {
+            closableText.text = $"You can close this window in {i} seconds";
             yield return new WaitForSeconds(1f);
         }
 
         if (_windowController != null)
         {
             _windowController.IsClosable = true;
-            closableText.text = "hihi.";
-        }
-    }
-
-    private IEnumerator CountUpRoutine()
-    {
-        int count = 2;
-        var image = GetComponentInChildren<UnityEngine.UI.Image>(true);
-        if (image != null)
-        {
-            image.enabled = true;
-        }
-
-        while (count <= 5)
-        {
-            closableText.text = $"You can close this window in {count} seconds";
-            count++;
-            yield return new WaitForSeconds(1f);
-        }
-
-        // Resume countdown from 5
-        for (int i = 5; i > 0; i--)
-        {
-            closableText.text = $"You can close this window in {i} seconds";
-            yield return new WaitForSeconds(1f);
+            closableText.text = "You can close this window now.";
         }
     }
 }

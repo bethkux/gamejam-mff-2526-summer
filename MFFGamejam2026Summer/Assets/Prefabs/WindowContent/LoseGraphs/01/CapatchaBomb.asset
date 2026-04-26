@@ -10,16 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 617eb0965e5b448ba351ec6f41d73fac, type: 3}
-  m_Name: TellYourMom_L
+  m_Name: CapatchaBomb
   m_EditorClassIdentifier: Assembly-CSharp::WindowFlowNodeAsset
-  title: I swear i will!
-  contentPrefab: {fileID: 2097773374565476595, guid: 324045d21c4e5b141b35d08e95f84f0f, type: 3}
+  title: Ooooopsieee
+  contentPrefab: {fileID: 6833692984098085570, guid: 54e9cff827d88d04da2254551df7fe5f, type: 3}
   applyEvade: 0
-  isClosable: 1
-  closeSpawnMode: 1
+  isClosable: 0
+  closeSpawnMode: 0
   randomSpawnCount: 1
   nextWindows:
+  - nextNode: {fileID: 11400000, guid: 69047e898f13b5b489075b1803a167a5, type: 2}
+    weight: 0
   - nextNode: {fileID: 11400000, guid: 34798f200c60e3b45a0a1458e1290b05, type: 2}
-    weight: 0.5
-  - nextNode: {fileID: 11400000, guid: 352a145f5bc476046a3bf5f88c467bdf, type: 2}
-    weight: 0.5
+    weight: 0

@@ -20,4 +20,5 @@ public class ClickableImage : MonoBehaviour, IPointerClickHandler
         // Invoke the event when the image is clicked
         OnImageClicked?.Invoke();
     }
+    
 }

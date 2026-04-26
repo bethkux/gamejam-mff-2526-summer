@@ -18,4 +18,6 @@ MonoBehaviour:
   isClosable: 0
   closeSpawnMode: 0
   randomSpawnCount: 1
-  nextWindows: []
+  nextWindows:
+  - nextNode: {fileID: 11400000, guid: 79d1eba4bae6c954e857a065220abd65, type: 2}
+    weight: 0

@@ -41,6 +41,7 @@ public class CursorManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
 
     private void Start()
     {
+        Cursor.lockState = CursorLockMode.Confined;
         Cursor.visible = false;
         _fakeCursorPos = Mouse.current.position.ReadValue();
         SetCursorDefault();
